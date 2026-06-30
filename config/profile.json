@@ -1,0 +1,52 @@
+{
+  "candidate": {
+    "name": "Arthur Dorchies",
+    "email": "arthurdorchies@gmail.com",
+    "phone": "+33 6 46 87 16 76",
+    "base_location": "Roubaix, 59100 Lille",
+    "current_role": "Développeur Full-stack chez Archimed (Lille)",
+    "title": "Développeur Full-stack — orienté solution, fiable, esprit d'équipe"
+  },
+  "skills": {
+    "core": ["javascript", "typescript", "react", "node.js", "nodejs", "express", "ejs",
+             "html", "css", "sass", "scss", "bootstrap", "tailwind", "sql", "nosql",
+             "mongodb", "git", "api", "rest", "full stack", "fullstack", "full-stack"],
+    "devops": ["powershell", "powershell universal", "devops", "cloud", "ovh", "ci/cd",
+               "cicd", "docker", "infrastructure"],
+    "learning": ["c#", "csharp", ".net", "dotnet", "asp.net"],
+    "languages": ["français", "french", "anglais", "english", "néerlandais", "dutch", "nederlands"]
+  },
+  "search": {
+    "francetravail": {
+      "departements": ["59", "62"],
+      "motsCles": ["développeur full stack", "développeur react node", "développeur javascript",
+                   "développeur web", "devops powershell", "typescript"],
+      "typeContrat": ["CDI", "CDD"],
+      "range": "0-49"
+    },
+    "adzuna": {
+      "countries": ["fr", "be"],
+      "what": ["full stack developer", "react node developer", "developpeur web",
+               "devops powershell", "typescript developer"],
+      "where": {"fr": "Lille", "be": "Bruxelles"},
+      "max_days_old": 14,
+      "results_per_page": 25
+    }
+  },
+  "scoring": {
+    "skill_in_text": 2,
+    "skill_in_title": 5,
+    "location_bonus": {
+      "roubaix": 7, "tourcoing": 6, "villeneuve-d'ascq": 6, "lille": 6,
+      "hauts-de-france": 4, "59": 3, "62": 2,
+      "télétravail": 3, "remote": 3, "hybride": 3,
+      "bruxelles": 3, "brussels": 3, "ixelles": 3
+    },
+    "contract_bonus": {"cdi": 4, "permanent": 4, "cdd": 1, "freelance": -2, "interim": -3, "intérim": -3},
+    "seniority_penalty": {"senior": -3, "lead": -4, "principal": -6, "staff ": -5,
+                          "architecte": -4, "expert": -3, "10 ans": -5, "8 ans": -4, "confirmé": -1},
+    "negative_keywords": {"stage": -10, "alternance": -10, "apprentissage": -10,
+                          "internship": -10, "stagiaire": -10}
+  },
+  "report": {"top_n_cover_letters": 4, "max_roles": 10}
+}
