@@ -213,6 +213,28 @@ Returns `(ok: bool, detail: str)`; never raises into the caller.
 All optional in the sense that missing groups degrade gracefully (a source or the
 email step is skipped, never a crash).
 
+### Setup & maintenance (one-time / when rotating keys)
+
+The values above live as **GitHub repository secrets** (Settings → Secrets and
+variables → Actions). To set up or change them:
+
+- **France Travail** — create an app at <https://francetravail.io>, subscribe to
+  *Offres d'emploi v2*, and use the client ID + secret. (French offers.)
+- **Adzuna** — register at <https://developer.adzuna.com> for an app ID + key.
+  (French + Belgian offers; optional.)
+- **Email — pick one transport:**
+  - *Resend* — an API key from <https://resend.com>. On the free tier the default
+    `onboarding@resend.dev` sender only delivers to the address you signed up with;
+    to send elsewhere, verify a domain and set `RESEND_FROM`.
+  - *SMTP* (e.g. Gmail) — enable 2-Step Verification, create an
+    [app password](https://myaccount.google.com/apppasswords), and set
+    `SMTP_HOST=smtp.gmail.com`, `SMTP_PORT=587`, `SMTP_USER`/`SMTP_FROM` = your
+    address, `SMTP_PASS` = the app password.
+
+`send_email` tries Resend first, then falls back to SMTP, so both may be set.
+The daily `schedule:` trigger only fires once the workflow is on the **default
+branch**; `workflow_dispatch` (Actions → *Run workflow*) works any time.
+
 ---
 
 ## 11. Design notes & constraints
