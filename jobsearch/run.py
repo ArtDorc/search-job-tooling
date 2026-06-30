@@ -83,12 +83,21 @@ def main(argv: list[str] | None = None) -> int:
     print(f"[run] wrote {md_path} and {html_path}", file=sys.stderr)
 
     email_status = "skipped"
+    email_ok = None  # None = not attempted (--no-email)
     if not args.no_email:
         subject = f"[Job Search] {len(fresh)} new roles — {run_date}"
-        ok, detail = notify.send_email(profile["candidate"]["email"], subject, html)
-        email_status = detail
+        email_ok, email_status = notify.send_email(
+            profile["candidate"]["email"], subject, html)
 
-    if not args.keep_seen:
+    # Only mark roles as "seen" once they've actually been delivered. If an email
+    # was attempted but failed, keep them unseen so the next run retries delivery
+    # instead of silently dropping roles the candidate never received.
+    if args.keep_seen:
+        print("[run] --keep-seen: state unchanged", file=sys.stderr)
+    elif email_ok is False:
+        print("[run] email delivery FAILED — keeping roles unseen to retry next run",
+              file=sys.stderr)
+    else:
         for j in fresh:
             seen.add(core.job_key(j))
         core.save_seen(seen)
