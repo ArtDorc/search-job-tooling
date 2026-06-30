@@ -81,17 +81,22 @@ def score_job(job: dict, profile: dict) -> tuple[int, list[str]]:
             score += sc["skill_in_text"]
             matched.append(skill)
 
+    # All categories use boundary-aware matching too, so e.g. a "java" penalty
+    # never fires on "javascript", and "59" never matches inside a postal code.
     for needle, bonus in sc["location_bonus"].items():
-        if needle in location or needle in text:
+        m = _skill_matcher(needle)
+        if m.search(location) or m.search(text):
             score += bonus
     for needle, bonus in sc["contract_bonus"].items():
-        if needle in contract or needle in title:
+        m = _skill_matcher(needle)
+        if m.search(contract) or m.search(title):
             score += bonus
     for needle, pen in sc["seniority_penalty"].items():
-        if needle in title:
+        if _skill_matcher(needle).search(title):
             score += pen
     for needle, pen in sc["negative_keywords"].items():
-        if needle in title or needle in text:
+        m = _skill_matcher(needle)
+        if m.search(title) or m.search(text):
             score += pen
 
     # de-duplicate matched skills, keep order

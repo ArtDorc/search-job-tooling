@@ -46,7 +46,8 @@
     "seniority_penalty": {"senior": -3, "lead": -4, "principal": -6, "staff ": -5,
                           "architecte": -4, "expert": -3, "10 ans": -5, "8 ans": -4, "confirmé": -1},
     "negative_keywords": {"stage": -10, "alternance": -10, "apprentissage": -10,
-                          "internship": -10, "stagiaire": -10}
+                          "internship": -10, "stagiaire": -10,
+                          "java": -6, "symfony": -3, "drupal": -3}
   },
   "report": {"top_n_cover_letters": 4, "max_roles": 10}
 }
