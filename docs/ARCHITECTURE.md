@@ -163,6 +163,12 @@ and return `[]`, so one broken source never sinks the run. HTTP via `urllib` (ho
 objects) and appends it to the fetched set **before** ranking — so roles found by
 web search (by a Claude routine or by hand) are scored and deduped identically.
 
+Entries are added via `python -m jobsearch.extra` (module `jobsearch/extra.py`),
+which reads a JSON array of finds from stdin or `--file`, normalizes them, drops
+any whose URL is already queued or already emailed (`state/seen_jobs.json`), prunes
+entries older than `--keep-days` (default 30), and writes the file back. This is
+the handoff used by the Claude routine — see §13.
+
 ---
 
 ## 8. Email
@@ -213,6 +219,28 @@ Returns `(ok: bool, detail: str)`; never raises into the caller.
 All optional in the sense that missing groups degrade gracefully (a source or the
 email step is skipped, never a crash).
 
+### Setup & maintenance (one-time / when rotating keys)
+
+The values above live as **GitHub repository secrets** (Settings → Secrets and
+variables → Actions). To set up or change them:
+
+- **France Travail** — create an app at <https://francetravail.io>, subscribe to
+  *Offres d'emploi v2*, and use the client ID + secret. (French offers.)
+- **Adzuna** — register at <https://developer.adzuna.com> for an app ID + key.
+  (French + Belgian offers; optional.)
+- **Email — pick one transport:**
+  - *Resend* — an API key from <https://resend.com>. On the free tier the default
+    `onboarding@resend.dev` sender only delivers to the address you signed up with;
+    to send elsewhere, verify a domain and set `RESEND_FROM`.
+  - *SMTP* (e.g. Gmail) — enable 2-Step Verification, create an
+    [app password](https://myaccount.google.com/apppasswords), and set
+    `SMTP_HOST=smtp.gmail.com`, `SMTP_PORT=587`, `SMTP_USER`/`SMTP_FROM` = your
+    address, `SMTP_PASS` = the app password.
+
+`send_email` tries Resend first, then falls back to SMTP, so both may be set.
+The daily `schedule:` trigger only fires once the workflow is on the **default
+branch**; `workflow_dispatch` (Actions → *Run workflow*) works any time.
+
 ---
 
 ## 11. Design notes & constraints
@@ -243,6 +271,40 @@ source-agnostic.
 
 ---
 
+## 13. The Claude routine (web-search synergy)
+
+The GitHub Action covers the APIs daily. A **Claude routine** covers what the APIs
+can't — the open web (Welcome to the Jungle, LinkedIn, company career pages, niche
+boards). The two are decoupled and share two files, so they compose without
+duplicating work:
+
+```
+ Claude routine (periodic)                GitHub Action (daily)
+ ─────────────────────────                ─────────────────────
+ WebSearch the open web        ─writes─▶  config/extra_jobs.json ─read─┐
+ normalize finds → JSON                                                 ├─▶ rank ─▶ dedup ─▶ email
+ python -m jobsearch.extra                France Travail + Adzuna ──────┘         │
+ git commit + push (main)                 state/seen_jobs.json  ◀────updates──────┘
+```
+
+- **Handoff in:** `config/extra_jobs.json` (the routine appends finds via
+  `jobsearch.extra`). **Shared memory:** `state/seen_jobs.json` (dedup by URL across
+  every source, so a web find and an API hit for the same role never both send).
+- **No second emailer.** The routine never emails or writes a report — it only
+  queues finds. The next Action run delivers them, alongside the API results, in the
+  single daily email. (The routine may call `actions_run_trigger` right after pushing
+  to deliver immediately instead of waiting for the cron.)
+- **Cadence.** APIs already give daily freshness, so the web sweep is for *breadth*,
+  not recency — weekly (or 2×/week) is plenty and keeps token cost low. Run it on the
+  default branch so the scheduled Action (which runs on `main`) sees the extras.
+- **Why Claude and not another Action.** Open-ended web research + judgment (is this
+  role actually a fit? is the link the real posting?) is the LLM's job; the
+  deterministic ranking/dedup/email is the script's. Each does what it's best at.
+
+A ready-to-use routine prompt lives in [`docs/claude-routine.md`](claude-routine.md).
+
+---
+
 ## File map
 
 ```
@@ -252,6 +314,7 @@ jobsearch/run.py           orchestrator / CLI entry point
 jobsearch/sources.py       France Travail + Adzuna fetchers
 jobsearch/core.py          scoring, dedup, rendering, cover letters
 jobsearch/notify.py        email (Resend / SMTP)
+jobsearch/extra.py         ingest web-search finds into extra_jobs.json
 jobsearch/fixtures/        sample roles for --mock
 state/seen_jobs.json       dedup memory (committed each run)
 reports/                   generated md + html reports
