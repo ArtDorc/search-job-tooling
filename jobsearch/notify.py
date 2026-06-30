@@ -12,6 +12,7 @@ import os
 import smtplib
 import ssl
 import sys
+import urllib.error
 import urllib.request
 from email.message import EmailMessage
 
@@ -37,6 +38,11 @@ def _send_resend(to: str, subject: str, html_body: str) -> tuple[bool, str]:
     try:
         with urllib.request.urlopen(req, timeout=30, context=ctx) as r:
             return (r.status < 400, f"resend HTTP {r.status}")
+    except urllib.error.HTTPError as exc:
+        # Resend explains 4xx in the body (e.g. the free-tier "you can only send
+        # to your own verified address" restriction) — surface it, don't hide it.
+        body = exc.read().decode("utf-8", "replace")[:300]
+        return (False, f"resend HTTP {exc.code}: {body}")
     except Exception as exc:  # noqa: BLE001
         return (False, f"resend error: {exc}")
 
@@ -70,12 +76,23 @@ def _send_smtp(to: str, subject: str, html_body: str) -> tuple[bool, str]:
 
 
 def send_email(to: str, subject: str, html_body: str) -> tuple[bool, str]:
+    """Try each configured transport in order (Resend, then SMTP); return on the
+    first success. If Resend is misconfigured but SMTP is set, delivery still
+    goes through."""
+    transports = []
     if os.environ.get("RESEND_API_KEY"):
-        ok, detail = _send_resend(to, subject, html_body)
-    elif os.environ.get("SMTP_HOST"):
-        ok, detail = _send_smtp(to, subject, html_body)
-    else:
+        transports.append(("resend", _send_resend))
+    if os.environ.get("SMTP_HOST"):
+        transports.append(("smtp", _send_smtp))
+    if not transports:
         _log("No email transport configured (set RESEND_API_KEY or SMTP_*). Skipping send.")
         return (False, "no transport configured")
-    _log(detail)
-    return (ok, detail)
+
+    last = (False, "")
+    for name, fn in transports:
+        ok, detail = fn(to, subject, html_body)
+        _log(detail)
+        if ok:
+            return (True, detail)
+        last = (ok, detail)
+    return last
