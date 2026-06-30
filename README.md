@@ -1,114 +1,156 @@
-# Arthur's automated job search
+# 📬 Arthur's Daily Job Search
 
-A small, mostly-deterministic pipeline that finds matching IT roles in
-Lille / Hauts-de-France and Brussels, ranks them against Arthur's CV,
-drafts cover letters, and emails a fresh report **daily** — for ~zero
-LLM tokens on a normal day.
+This little tool does Arthur's IT job hunt for him, every morning, automatically.
 
-## How it works
+Each day it searches for developer roles around **Lille** and **Brussels**, keeps
+only the ones that fit his CV, ranks them best-first, drafts a cover letter for
+the top few, and **emails him the report** — all on its own, for free.
+
+You don't have to run anything by hand. Once it's set up, you just read the email.
+
+---
+
+## What you get
+
+Every day, an email titled **"[Job Search] N new roles — YYYY-MM-DD"** containing:
+
+- 📋 A **ranked table** of new matching roles — job title, company, location, and a link to apply.
+- ⭐ A **fit score** for each (higher = closer to Arthur's profile).
+- ✍️ **Ready-to-send cover letters** (in French) for the top 4 roles.
+- 🧠 A one-line **"why it fits"** for each role.
+
+You only ever see **new** roles — anything reported on a previous day is remembered
+and never shown again. On a quiet day with nothing new, it stays silent (no email).
+
+---
+
+## How it works, in one picture
 
 ```
-France Travail API ┐
-Adzuna API         ├─► rank vs profile ─► dedup ─► render (md + html) ─► email ─► commit
-web-search supplement ┘    (config/profile.json)   (state/)         (reports/)   (Resend/SMTP)
+   Job websites' APIs          Your CV                 Your inbox
+  ┌──────────────────┐   ┌──────────────────┐      ┌──────────────┐
+  │  France Travail  │   │  what counts as  │      │  daily email │
+  │  Adzuna (FR+BE)  │──▶│  a good match    │──▶  ─▶│  + report in │
+  │  + web search    │   │ (config file)    │      │  the repo    │
+  └──────────────────┘   └──────────────────┘      └──────────────┘
+        find roles          score & rank            email the best,
+                            skip duplicates         skip what you've seen
 ```
 
-Two ways it runs:
+It runs on **GitHub Actions** — GitHub's free scheduler — so it works even when
+your computer and Claude are off. (Curious about the internals? See
+[`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).)
 
-1. **GitHub Actions (the daily engine, 0 tokens).**
-   `.github/workflows/daily-job-search.yml` runs on GitHub's runners (open
-   network), calls the APIs, emails the report, and commits it back. This is
-   the reliable path and needs no Claude involvement.
+---
 
-2. **Claude routine (optional enrichment).** A scheduled Claude session can add
-   a web-search pass for roles the APIs miss (drop them into
-   `config/extra_jobs.json`) and rewrite the top cover letters with real
-   tailoring. Because the script does all the fetching/ranking/formatting,
-   Claude's job is tiny — that's the token saving you asked for.
+## Set it up once (about 10 minutes)
 
-> **Why not run the APIs from the Claude web environment?** Its egress policy
-> blocks outbound calls to `api.francetravail.io`, `api.adzuna.com`, and all
-> email hosts (`403 CONNECT tunnel failed`). GitHub Actions has open network,
-> so that's where the API + email job lives. (Alternatively, relax this
-> environment's network policy to allow those hosts — see the docs link below.)
+You need to give the tool (1) permission to read job listings and (2) a way to
+send you email. Everything below is free.
 
-## One-time setup
+### Step 1 — Get the job-search keys
 
-### 1. Get free API credentials
+| Service | What it gives you | Where |
+|--------|-------------------|-------|
+| **France Travail** | French job offers | [francetravail.io](https://francetravail.io) → create an app → subscribe to *Offres d'emploi v2* → copy **client ID** + **secret** |
+| **Adzuna** | French + Belgian offers | [developer.adzuna.com](https://developer.adzuna.com) → register → copy **app ID** + **app key** |
 
-- **France Travail** (French offers): create an app at
-  <https://francetravail.io>, subscribe to *Offres d'emploi v2*, copy the
-  client ID + secret.
-- **Adzuna** (FR + BE coverage): register at
-  <https://developer.adzuna.com>, copy the app ID + app key.
+> It's fine to set up only one of them — the tool simply uses whatever is available.
 
-Both have free tiers sufficient for a daily personal search. The pipeline runs
-fine with only one of them configured — a missing source just logs and is
-skipped.
+### Step 2 — Choose how email gets sent
 
-### 2. Pick an email transport
+Pick **one**:
 
-- **Resend** (simplest): sign up at <https://resend.com>, create an API key.
-  Free tier sends to your own verified address from `onboarding@resend.dev`.
-- **or SMTP** (e.g. Gmail): create an [app password](https://myaccount.google.com/apppasswords)
-  and use `smtp.gmail.com` / port `587`.
+- **Resend** (easiest): sign up at [resend.com](https://resend.com), create an API key. Done.
+- **Gmail (or any email)**: create an [app password](https://myaccount.google.com/apppasswords) and use your mail server's address (Gmail = `smtp.gmail.com`, port `587`).
 
-### 3. Add them as GitHub repository secrets
+### Step 3 — Paste the keys into GitHub (as "secrets")
 
-Repo → Settings → Secrets and variables → Actions → *New repository secret*:
+In the repository: **Settings → Secrets and variables → Actions → New repository secret**.
+Add the ones matching your choices above:
 
-| Secret | Needed for |
-|--------|-----------|
-| `FT_CLIENT_ID`, `FT_CLIENT_SECRET` | France Travail |
-| `ADZUNA_APP_ID`, `ADZUNA_APP_KEY` | Adzuna |
-| `RESEND_API_KEY` (+ optional `RESEND_FROM`) | email via Resend |
-| *or* `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS` (+ optional `SMTP_FROM`) | email via SMTP |
+| Secret name | Fill in if you use… |
+|-------------|---------------------|
+| `FT_CLIENT_ID` / `FT_CLIENT_SECRET` | France Travail |
+| `ADZUNA_APP_ID` / `ADZUNA_APP_KEY` | Adzuna |
+| `RESEND_API_KEY` | Resend email |
+| `SMTP_HOST` / `SMTP_PORT` / `SMTP_USER` / `SMTP_PASS` | Gmail/SMTP email |
 
-**Never commit secrets** — they live only in GitHub's encrypted store.
+🔒 Secrets are encrypted by GitHub and never appear in the code. Don't paste them
+anywhere else.
 
-### 4. Enable the daily run
+### Step 4 — Turn on the daily run
 
-Scheduled workflows only fire from the **default branch**, so merge this branch
-into `main`. Then it runs every day at 06:30 UTC. Trigger it any time from the
-Actions tab → *Daily Job Search* → *Run workflow*.
+The schedule only starts once this code is on the repository's **main branch**, so
+**merge this branch into `main`**. After that it runs every day at **06:30 UTC**
+(about 08:30 in Lille).
 
-## Run it locally / by hand
+Want to test it right now? Go to the **Actions** tab → **Daily Job Search** →
+**Run workflow**. You should get an email within a minute or two.
+
+---
+
+## Reading your report
+
+The score is just a quick "how well does this match Arthur?" number. Higher is
+better. Roughly:
+
+- **Big plus** for the exact stack (React, Node.js, TypeScript, PowerShell) — even more if it's in the job *title*.
+- **Plus** for being close to home (Roubaix and Lille score highest), for permanent contracts (CDI), and for remote/hybrid.
+- **Minus** for internships/alternance and for senior/lead roles that ask for more years than Arthur has.
+
+A role has to clear a minimum bar to appear at all, so the list is already filtered
+down to genuine fits.
+
+---
+
+## Make the matches better
+
+Don't like what's coming through? Everything that decides a match lives in one
+plain file — **`config/profile.json`** — and you can edit it without touching code:
+
+- **`skills`** — the keywords it looks for. Add a tech, get more of those roles.
+- **`search`** — which areas (départements 59/62) and countries (FR/BE) to search.
+- **`scoring`** — how much home-proximity, contract type, and seniority matter.
+- **`report.top_n_cover_letters`** — how many cover letters to write (default 4).
+
+Save the file, commit it, and the next run uses your new rules.
+
+Found a great role the APIs missed? Add it to **`config/extra_jobs.json`** and it
+gets ranked and included alongside everything else.
+
+---
+
+## Run it yourself (optional)
+
+If you ever want to run it from a terminal instead of waiting for the schedule:
 
 ```bash
-python -m jobsearch.run --mock        # offline demo with bundled sample roles
-python -m jobsearch.run               # live: APIs + email (needs the env vars)
-python -m jobsearch.run --no-email    # build the report, don't send
-python -m jobsearch.run --keep-seen   # don't update dedup state (re-show roles)
+python -m jobsearch.run --mock      # offline demo using built-in sample roles
+python -m jobsearch.run             # the real thing (needs the keys as env vars)
+python -m jobsearch.run --no-email  # build the report but don't send it
 ```
 
-Env vars for a live local run are the same names as the secrets above.
+No installation needed — it uses only Python's standard library.
 
-## Tuning what counts as a match
+---
 
-Everything is in **`config/profile.json`** — no code changes needed:
+## Troubleshooting
 
-- `skills` — keywords matched against title/description (title hits score higher).
-- `search` — which queries, départements (59/62), and countries (fr/be) to pull.
-- `scoring` — location bonuses (Roubaix/Lille highest), CDI bonus, seniority and
-  stage/alternance penalties.
-- `report.top_n_cover_letters` — how many letters to draft (default 4).
+| Problem | Likely cause / fix |
+|---------|--------------------|
+| No email arrived | Check the **Actions** tab for a red run and read the log. Most often a missing/typo'd secret, or email keys not set. |
+| The daily schedule never fires | Scheduled runs only work from the **main** branch — make sure this is merged there. |
+| "0 new roles" every day | Normal if nothing new was posted. To re-see old roles, clear `state/seen_jobs.json` back to `{"seen": []}`. |
+| Roles feel off-target | Tune `config/profile.json` (see above). |
+| Want to test without waiting | Actions tab → Daily Job Search → **Run workflow**. |
 
-## Layout
+---
 
-```
-config/profile.json        profile + search + scoring config (edit this)
-config/extra_jobs.json     web-search supplement, normalized job objects
-jobsearch/sources.py       France Travail + Adzuna fetchers (stdlib only)
-jobsearch/core.py          scoring, dedup, rendering, cover letters
-jobsearch/notify.py        email (Resend or SMTP)
-jobsearch/run.py           orchestrator CLI
-jobsearch/fixtures/        sample roles for --mock
-state/seen_jobs.json       dedup memory (so you only see new roles)
-reports/                   generated daily reports (md + html)
-.github/workflows/         the daily Action
-```
+## Good to know
 
-No third-party Python packages — standard library only.
+- **Privacy**: your keys live only in GitHub's encrypted secret store; the code never contains them.
+- **Cost**: France Travail, Adzuna, Resend, and GitHub Actions all have free tiers that comfortably cover a personal daily search.
+- **Heads-up**: job links come from aggregators, which can lag the live posting — always double-check a role is still open before applying.
 
-Docs on the Claude web environment & network policies:
-<https://code.claude.com/docs/en/claude-code-on-the-web>
+For how it's built under the hood, see **[`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)**.
