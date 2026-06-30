@@ -1,0 +1,101 @@
+[
+  {
+    "id": "sii-fullstack-js-node-react-lille",
+    "source": "fixture",
+    "title": "Développeur(se) Fullstack JavaScript - Node.js / React.js",
+    "company": "Groupe SII",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://www.welcometothejungle.com/fr/companies/sii/jobs/developpeur-se-fullstack-javascript-node-js-react-js-lille_lille",
+    "date": "2026-06-29",
+    "description": "ESN. Stack Node.js, React.js, JavaScript, TypeScript, Git, CI/CD. Missions variées chez des clients lillois. Jusqu'à 50% de télétravail selon mission."
+  },
+  {
+    "id": "sopra-steria-devops-villeneuve",
+    "source": "fixture",
+    "title": "Ingénieur(e) DevOps",
+    "company": "Sopra Steria",
+    "location": "Villeneuve-d'Ascq (59)",
+    "contract": "CDI",
+    "url": "https://www.welcometothejungle.com/fr/companies/sopra-steria/jobs/ingenieur-devops-lille_villeneuve-d-ascq_SS_rrVjO0",
+    "date": "2026-06-28",
+    "description": "Scripting PowerShell, Ansible, Jenkins, Docker, Kubernetes, CI/CD, infrastructure cloud. Environnements de qualification et de production pour grands comptes."
+  },
+  {
+    "id": "collectivite-fullstack-react-node-lille",
+    "source": "fixture",
+    "title": "Développeur Full Stack React / Node.js",
+    "company": "Collectivité territoriale (secteur public)",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://www.hellowork.com/fr-fr/emplois/80060985.html",
+    "date": "2026-06-27",
+    "description": "Développement full stack React et Node.js pour services publics. Analyse des besoins, relation utilisateurs, CDI."
+  },
+  {
+    "id": "industriel-fullstack-react-node-lille",
+    "source": "fixture",
+    "title": "Développeur Full Stack React / Node.js (équipe Produit)",
+    "company": "Acteur industriel (via Jobijoba)",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://www.jobijoba.com/fr/annonce/54/ef7fa02168b2e5bad7df0275b19546a7",
+    "date": "2026-06-29",
+    "description": "React + TypeScript front-end, Node.js back-end, SQL et MongoDB, CI/CD, Git. Configurateurs métier, e-commerce, outils de production, intégration SI."
+  },
+  {
+    "id": "sii-fullstack-react-node-lille-2",
+    "source": "fixture",
+    "title": "Développeur fullstack React/Nodejs (F/H)",
+    "company": "Groupe SII",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://www.welcometothejungle.com/fr/companies/sii/jobs/developpeur-fullstack-react-nodejs-f-h_lille",
+    "date": "2026-06-26",
+    "description": "ESN. React, Node.js, missions clients. Variante du poste fullstack JS."
+  },
+  {
+    "id": "scalian-fullstack-lille",
+    "source": "fixture",
+    "title": "Développeur Full Stack H/F",
+    "company": "Scalian",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://careers.scalian.com/job/developpeur-full-stack-h-f-in-lille-jid-993",
+    "date": "2026-06-25",
+    "description": "Conseil en ingénierie. Développement et évolution d'applications dans divers domaines fonctionnels, dont l'industrie."
+  },
+  {
+    "id": "listen-too-fullstack-lille",
+    "source": "fixture",
+    "title": "Développeur·se Full Stack (confirmé)",
+    "company": "Listen too",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://www.welcometothejungle.com/fr/companies/listen-too/jobs/developpeur-full-stack-lille_lille",
+    "date": "2026-06-24",
+    "description": "Développeur full stack confirmé sur des projets à forte valeur ajoutée technologique. IT & Digital."
+  },
+  {
+    "id": "qover-fullstack-node-ts-brussels",
+    "source": "fixture",
+    "title": "Full Stack Software Engineer (Node.js, TypeScript)",
+    "company": "Qover",
+    "location": "Bruxelles (BE)",
+    "contract": "CDI",
+    "url": "https://jobs.lever.co/Qover/5b0a700f-ac11-4684-9ee6-484300f4c86b",
+    "date": "2026-06-23",
+    "description": "Insurtech scale-up. Node.js, TypeScript, React. Plateforme web. Hybride Bruxelles."
+  },
+  {
+    "id": "talentr-fullstack-ts-node-brussels",
+    "source": "fixture",
+    "title": "Full Stack Developer (TypeScript + Node.js)",
+    "company": "Scale-up client (via Talent-R)",
+    "location": "Bruxelles (BE)",
+    "contract": "CDI",
+    "url": "https://bebee.com/be/jobs/full-stack-developer-typescript-nodejs-remote-hybrid-talent-r-brussels-brussels-region--theirstack-688943867",
+    "date": "2026-06-22",
+    "description": "Node.js, TypeScript, PostgreSQL, React, Next.js. B2B SaaS integration. Hybride 2-3j télétravail, jusqu'à 65k. Profil autonome, ownership backend."
+  }
+]
