@@ -1,45 +1,47 @@
 # Daily Job Search Report — 2026-06-30
 
 Candidate: **Arthur Dorchies** — Roubaix, 59100 Lille
-New matching roles found: **9** (showing top 9).
+New matching roles found: **33** (showing top 10).
 
 ## Ranked roles
 
 | # | Score | Role | Company | Location | Link |
 |---|-------|------|---------|----------|------|
-| 1 | 42 | Développeur(se) Fullstack JavaScript - Node.js / React.js | Groupe SII | Lille (59) | [offer](https://www.welcometothejungle.com/fr/companies/sii/jobs/developpeur-se-fullstack-javascript-node-js-react-js-lille_lille) |
-| 2 | 38 | Développeur Full Stack React / Node.js (équipe Produit) | Acteur industriel (via Jobijoba) | Lille (59) | [offer](https://www.jobijoba.com/fr/annonce/54/ef7fa02168b2e5bad7df0275b19546a7) |
-| 3 | 30 | Développeur fullstack React/Nodejs (F/H) | Groupe SII | Lille (59) | [offer](https://www.welcometothejungle.com/fr/companies/sii/jobs/developpeur-fullstack-react-nodejs-f-h_lille) |
-| 4 | 30 | Full Stack Developer (TypeScript + Node.js) | Scale-up client (via Talent-R) | Bruxelles (BE) | [offer](https://bebee.com/be/jobs/full-stack-developer-typescript-nodejs-remote-hybrid-talent-r-brussels-brussels-region--theirstack-688943867) |
-| 5 | 28 | Ingénieur(e) DevOps | Sopra Steria | Villeneuve-d'Ascq (59) | [offer](https://www.welcometothejungle.com/fr/companies/sopra-steria/jobs/ingenieur-devops-lille_villeneuve-d-ascq_SS_rrVjO0) |
-| 6 | 28 | Développeur Full Stack React / Node.js | Collectivité territoriale (secteur public) | Lille (59) | [offer](https://www.hellowork.com/fr-fr/emplois/80060985.html) |
-| 7 | 27 | Full Stack Software Engineer (Node.js, TypeScript) | Qover | Bruxelles (BE) | [offer](https://jobs.lever.co/Qover/5b0a700f-ac11-4684-9ee6-484300f4c86b) |
-| 8 | 18 | Développeur Full Stack H/F | Scalian | Lille (59) | [offer](https://careers.scalian.com/job/developpeur-full-stack-h-f-in-lille-jid-993) |
-| 9 | 17 | Développeur·se Full Stack (confirmé) | Listen too | Lille (59) | [offer](https://www.welcometothejungle.com/fr/companies/listen-too/jobs/developpeur-full-stack-lille_lille) |
+| 1 | 36 | Développeur javascript (H/F) | Non précisé | 59 - Roubaix | [offer](https://candidat.francetravail.fr/offres/recherche/detail/210GFNJ) |
+| 2 | 29 | Développeur Full-stack (H/F) | Non précisé | 59 - Lille | [offer](https://candidat.francetravail.fr/offres/recherche/detail/4032171) |
+| 3 | 26 | Ingénieur développement- Fullstack  Java -Services Financiers - Lille (H/F) | Non précisé | 59 - Villeneuve-d'Ascq | [offer](https://candidat.francetravail.fr/offres/recherche/detail/3642432) |
+| 4 | 24 | Développeur Full Stack (H/F) | Non précisé | 59 - ROUBAIX | [offer](https://candidat.francetravail.fr/offres/recherche/detail/210DZRF) |
+| 5 | 23 | Développeur Full Stack Senior (H/F) - Lille h/f | Non précisé | 59 - Lille | [offer](https://candidat.francetravail.fr/offres/recherche/detail/3984599) |
+| 6 | 22 | Développeur Fullstack Java VueJS (H/F) | Non précisé | 59 - Lille | [offer](https://candidat.francetravail.fr/offres/recherche/detail/3832571) |
+| 7 | 21 | Senior Software Engineer Frontend React/Svelte (H/F) | Non précisé | 59 - Villeneuve-d'Ascq | [offer](https://candidat.francetravail.fr/offres/recherche/detail/3999030) |
+| 8 | 20 | Ingénieur développement- Fullstack  Java -Services Financiers - Lille (H/F) | Non précisé | 59 - Lezennes | [offer](https://candidat.francetravail.fr/offres/recherche/detail/3535327) |
+| 9 | 20 | Développeur Java Fullstack - H/F | Talents IT | 59 - Lille | [offer](https://candidat.francetravail.fr/offres/recherche/detail/4403048) |
+| 10 | 18 | Ingénieur Java / Javascript - Référentiel Produit (H/F) | Non précisé | 59 - Lille | [offer](https://candidat.francetravail.fr/offres/recherche/detail/3838415) |
 
 ## Why each fits
 
-1. **Développeur(se) Fullstack JavaScript - Node.js / React.js — Groupe SII** (Lille (59)): Recoupe le profil sur : javascript, typescript, react, node.js, git.
-2. **Développeur Full Stack React / Node.js (équipe Produit) — Acteur industriel (via Jobijoba)** (Lille (59)): Recoupe le profil sur : typescript, react, node.js, sql, mongodb.
-3. **Développeur fullstack React/Nodejs (F/H) — Groupe SII** (Lille (59)): Recoupe le profil sur : react, node.js, nodejs, fullstack.
-4. **Full Stack Developer (TypeScript + Node.js) — Scale-up client (via Talent-R)** (Bruxelles (BE)): Recoupe le profil sur : typescript, react, node.js, full stack.
-5. **Ingénieur(e) DevOps — Sopra Steria** (Villeneuve-d'Ascq (59)): Recoupe le profil sur : powershell, devops, cloud, ci/cd, docker. Correspond à l'expérience DevOps/Cloud (PowerShell, OVH) d'Arthur.
-6. **Développeur Full Stack React / Node.js — Collectivité territoriale (secteur public)** (Lille (59)): Recoupe le profil sur : react, node.js, full stack.
-7. **Full Stack Software Engineer (Node.js, TypeScript) — Qover** (Bruxelles (BE)): Recoupe le profil sur : typescript, react, node.js, full stack.
-8. **Développeur Full Stack H/F — Scalian** (Lille (59)): Recoupe le profil sur : full stack.
-9. **Développeur·se Full Stack (confirmé) — Listen too** (Lille (59)): Recoupe le profil sur : full stack.
+1. **Développeur javascript (H/F) — Non précisé** (59 - Roubaix): Recoupe le profil sur : javascript, typescript, react, node.js, css.
+2. **Développeur Full-stack (H/F) — Non précisé** (59 - Lille): Recoupe le profil sur : javascript, sql, full-stack, c#, .net.
+3. **Ingénieur développement- Fullstack  Java -Services Financiers - Lille (H/F) — Non précisé** (59 - Villeneuve-d'Ascq): Recoupe le profil sur : full stack, fullstack.
+4. **Développeur Full Stack (H/F) — Non précisé** (59 - ROUBAIX): Recoupe le profil sur : typescript, rest, full stack, devops, ci/cd.
+5. **Développeur Full Stack Senior (H/F) - Lille h/f — Non précisé** (59 - Lille): Recoupe le profil sur : api, rest, full stack.
+6. **Développeur Fullstack Java VueJS (H/F) — Non précisé** (59 - Lille): Recoupe le profil sur : full stack, fullstack, cloud.
+7. **Senior Software Engineer Frontend React/Svelte (H/F) — Non précisé** (59 - Villeneuve-d'Ascq): Recoupe le profil sur : react.
+8. **Ingénieur développement- Fullstack  Java -Services Financiers - Lille (H/F) — Non précisé** (59 - Lezennes): Recoupe le profil sur : fullstack, cloud.
+9. **Développeur Java Fullstack - H/F — Talents IT** (59 - Lille): Recoupe le profil sur : fullstack, infrastructure.
+10. **Ingénieur Java / Javascript - Référentiel Produit (H/F) — Non précisé** (59 - Lille): Recoupe le profil sur : javascript.
 
 ## Tailored cover letters (top 4)
 
-### 1. Groupe SII — Développeur(se) Fullstack JavaScript - Node.js / React.js
-Link: https://www.welcometothejungle.com/fr/companies/sii/jobs/developpeur-se-fullstack-javascript-node-js-react-js-lille_lille
+### 1. Non précisé — Développeur javascript (H/F)
+Link: https://candidat.francetravail.fr/offres/recherche/detail/210GFNJ
 
 ```
 Madame, Monsieur,
 
-Développeur Full-stack chez Archimed à Lille, je vous propose ma candidature pour le poste de Développeur(se) Fullstack JavaScript - Node.js / React.js au sein de Groupe SII.
+Développeur Full-stack chez Archimed à Lille, je vous propose ma candidature pour le poste de Développeur javascript (H/F) au sein de Non précisé.
 
-Au quotidien, j'interviens sur l'ensemble du cycle projet : analyse des besoins, rédaction de spécifications fonctionnelles et techniques, développement front-end (React, TypeScript, Tailwind) et back-end (Node.js, Express, SQL et noSQL), intégration de solutions, correction d'anomalies et livraison client. Les compétences attendues dans votre offre (javascript, typescript, react, node.js, git, fullstack) recoupent largement ma pratique actuelle.
+Au quotidien, j'interviens sur l'ensemble du cycle projet : analyse des besoins, rédaction de spécifications fonctionnelles et techniques, développement front-end (React, TypeScript, Tailwind) et back-end (Node.js, Express, SQL et noSQL), intégration de solutions, correction d'anomalies et livraison client. Les compétences attendues dans votre offre (javascript, typescript, react, node.js, css, bootstrap) recoupent largement ma pratique actuelle.
 
 Rigoureux, orienté solution et habitué au travail d'équipe — qualités affinées par plusieurs années d'enseignement et par la gestion de la relation client — je suis convaincu de pouvoir contribuer rapidement à vos projets, tout en poursuivant ma montée en compétences (actuellement C#/.NET).
 
@@ -50,15 +52,15 @@ Arthur Dorchies
 +33 6 46 87 16 76 — arthurdorchies@gmail.com
 ```
 
-### 2. Acteur industriel (via Jobijoba) — Développeur Full Stack React / Node.js (équipe Produit)
-Link: https://www.jobijoba.com/fr/annonce/54/ef7fa02168b2e5bad7df0275b19546a7
+### 2. Non précisé — Développeur Full-stack (H/F)
+Link: https://candidat.francetravail.fr/offres/recherche/detail/4032171
 
 ```
 Madame, Monsieur,
 
-Développeur Full-stack chez Archimed à Lille, je vous propose ma candidature pour le poste de Développeur Full Stack React / Node.js (équipe Produit) au sein de Acteur industriel (via Jobijoba).
+Développeur Full-stack chez Archimed à Lille, je vous propose ma candidature pour le poste de Développeur Full-stack (H/F) au sein de Non précisé.
 
-Au quotidien, j'interviens sur l'ensemble du cycle projet : analyse des besoins, rédaction de spécifications fonctionnelles et techniques, développement front-end (React, TypeScript, Tailwind) et back-end (Node.js, Express, SQL et noSQL), intégration de solutions, correction d'anomalies et livraison client. Les compétences attendues dans votre offre (typescript, react, node.js, sql, mongodb, git) recoupent largement ma pratique actuelle.
+Au quotidien, j'interviens sur l'ensemble du cycle projet : analyse des besoins, rédaction de spécifications fonctionnelles et techniques, développement front-end (React, TypeScript, Tailwind) et back-end (Node.js, Express, SQL et noSQL), intégration de solutions, correction d'anomalies et livraison client. Les compétences attendues dans votre offre (javascript, sql, full-stack, c#, .net) recoupent largement ma pratique actuelle.
 
 Rigoureux, orienté solution et habitué au travail d'équipe — qualités affinées par plusieurs années d'enseignement et par la gestion de la relation client — je suis convaincu de pouvoir contribuer rapidement à vos projets, tout en poursuivant ma montée en compétences (actuellement C#/.NET).
 
@@ -69,15 +71,15 @@ Arthur Dorchies
 +33 6 46 87 16 76 — arthurdorchies@gmail.com
 ```
 
-### 3. Groupe SII — Développeur fullstack React/Nodejs (F/H)
-Link: https://www.welcometothejungle.com/fr/companies/sii/jobs/developpeur-fullstack-react-nodejs-f-h_lille
+### 3. Non précisé — Ingénieur développement- Fullstack  Java -Services Financiers - Lille (H/F)
+Link: https://candidat.francetravail.fr/offres/recherche/detail/3642432
 
 ```
 Madame, Monsieur,
 
-Développeur Full-stack chez Archimed à Lille, je vous propose ma candidature pour le poste de Développeur fullstack React/Nodejs (F/H) au sein de Groupe SII.
+Développeur Full-stack chez Archimed à Lille, je vous propose ma candidature pour le poste de Ingénieur développement- Fullstack  Java -Services Financiers - Lille (H/F) au sein de Non précisé.
 
-Au quotidien, j'interviens sur l'ensemble du cycle projet : analyse des besoins, rédaction de spécifications fonctionnelles et techniques, développement front-end (React, TypeScript, Tailwind) et back-end (Node.js, Express, SQL et noSQL), intégration de solutions, correction d'anomalies et livraison client. Les compétences attendues dans votre offre (react, node.js, nodejs, fullstack) recoupent largement ma pratique actuelle.
+Au quotidien, j'interviens sur l'ensemble du cycle projet : analyse des besoins, rédaction de spécifications fonctionnelles et techniques, développement front-end (React, TypeScript, Tailwind) et back-end (Node.js, Express, SQL et noSQL), intégration de solutions, correction d'anomalies et livraison client. Les compétences attendues dans votre offre (full stack, fullstack) recoupent largement ma pratique actuelle.
 
 Rigoureux, orienté solution et habitué au travail d'équipe — qualités affinées par plusieurs années d'enseignement et par la gestion de la relation client — je suis convaincu de pouvoir contribuer rapidement à vos projets, tout en poursuivant ma montée en compétences (actuellement C#/.NET).
 
@@ -88,15 +90,15 @@ Arthur Dorchies
 +33 6 46 87 16 76 — arthurdorchies@gmail.com
 ```
 
-### 4. Scale-up client (via Talent-R) — Full Stack Developer (TypeScript + Node.js)
-Link: https://bebee.com/be/jobs/full-stack-developer-typescript-nodejs-remote-hybrid-talent-r-brussels-brussels-region--theirstack-688943867
+### 4. Non précisé — Développeur Full Stack (H/F)
+Link: https://candidat.francetravail.fr/offres/recherche/detail/210DZRF
 
 ```
 Madame, Monsieur,
 
-Développeur Full-stack chez Archimed à Lille, je vous propose ma candidature pour le poste de Full Stack Developer (TypeScript + Node.js) au sein de Scale-up client (via Talent-R).
+Développeur Full-stack chez Archimed à Lille, je vous propose ma candidature pour le poste de Développeur Full Stack (H/F) au sein de Non précisé.
 
-Au quotidien, j'interviens sur l'ensemble du cycle projet : analyse des besoins, rédaction de spécifications fonctionnelles et techniques, développement front-end (React, TypeScript, Tailwind) et back-end (Node.js, Express, SQL et noSQL), intégration de solutions, correction d'anomalies et livraison client. Les compétences attendues dans votre offre (typescript, react, node.js, full stack) recoupent largement ma pratique actuelle.
+Au quotidien, j'interviens sur l'ensemble du cycle projet : analyse des besoins, rédaction de spécifications fonctionnelles et techniques, développement front-end (React, TypeScript, Tailwind) et back-end (Node.js, Express, SQL et noSQL), intégration de solutions, correction d'anomalies et livraison client. Les compétences attendues dans votre offre (typescript, rest, full stack, devops, ci/cd) recoupent largement ma pratique actuelle.
 
 Rigoureux, orienté solution et habitué au travail d'équipe — qualités affinées par plusieurs années d'enseignement et par la gestion de la relation client — je suis convaincu de pouvoir contribuer rapidement à vos projets, tout en poursuivant ma montée en compétences (actuellement C#/.NET).
 
