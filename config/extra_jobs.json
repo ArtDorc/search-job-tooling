@@ -1,5 +1,93 @@
 [
   {
+    "id": "https://www.welcometothejungle.com/fr/companies/exalt/jobs/developpeur-se-fullstack-js-node-react-exalt-lille_lille",
+    "source": "websearch",
+    "title": "Développeur/se Fullstack JS - Node / React @eXalt Lille",
+    "company": "eXalt",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://www.welcometothejungle.com/fr/companies/exalt/jobs/developpeur-se-fullstack-js-node-react-exalt-lille_lille",
+    "date": "2026-07-20",
+    "description": "ESN lilloise (950 consultants), poste full stack Node.js/React.js oriente qualite de code et pratiques agiles, 45-60K€, 3-5 ans d'experience."
+  },
+  {
+    "id": "https://www.euratechnologies.com/emploi/developpeur-full-stack-hf-ivs-cdi/",
+    "source": "websearch",
+    "title": "Développeur Full Stack H/F (IVS)",
+    "company": "IVS - EuraTechnologies",
+    "location": "Lille - Euratechnologies (59)",
+    "contract": "CDI",
+    "url": "https://www.euratechnologies.com/emploi/developpeur-full-stack-hf-ivs-cdi/",
+    "date": "2026-07-20",
+    "description": "Startup basee au campus Euratechnologies, poste de developpeur full stack en CDI a Lille."
+  },
+  {
+    "id": "https://welovedevs.com/app/job/developpeur-full-stack-decathlon",
+    "source": "websearch",
+    "title": "Développeur Full Stack",
+    "company": "Decathlon IT",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://welovedevs.com/app/job/developpeur-full-stack-decathlon",
+    "date": "2026-07-20",
+    "description": "Equipe de 7 developpeurs sur applis magasin, stack React/TypeScript/Couchbase, TDD/BDD, 35-45K€."
+  },
+  {
+    "id": "https://www.emplois-informatique.fr/cdi/developpeur-full-stack-react-node-js-typescript-h-f-6895265",
+    "source": "websearch",
+    "title": "Développeur Full Stack React / Node.js (TypeScript) H/F",
+    "company": "Non précisé",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://www.emplois-informatique.fr/cdi/developpeur-full-stack-react-node-js-typescript-h-f-6895265",
+    "date": "2026-07-20",
+    "description": "Contexte industriel/e-commerce, React + Node.js en TypeScript, CI/CD et sensibilite data (SQL/MongoDB/ETL)."
+  },
+  {
+    "id": "https://www.hellowork.com/fr-fr/emplois/80551145.html",
+    "source": "websearch",
+    "title": "Développeur Fullstack React Vue.js",
+    "company": "Collectivité",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://www.hellowork.com/fr-fr/emplois/80551145.html",
+    "date": "2026-07-20",
+    "description": "Poste fullstack React/Vue.js en CDI a Lille, cote secteur public/collectivite."
+  },
+  {
+    "id": "https://www.hellowork.com/fr-fr/emplois/15978959.html",
+    "source": "websearch",
+    "title": "Développeur Front JS Angular React.js ou Vuejs",
+    "company": "Alteca",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://www.hellowork.com/fr-fr/emplois/15978959.html",
+    "date": "2026-07-20",
+    "description": "ESN, poste front-end JS (Angular/React/Vue) en CDI a Lille, hybride, 75% transport + 60% titres-resto/mutuelle."
+  },
+  {
+    "id": "https://www.hellowork.com/fr-fr/emplois/55973042.html",
+    "source": "websearch",
+    "title": "Développeur Full Stack Node.js React.js Vue.js",
+    "company": "engIT",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://www.hellowork.com/fr-fr/emplois/55973042.html",
+    "date": "2026-07-20",
+    "description": "ESN lilloise, poste full stack Node.js + React.js/Vue.js en CDI a Lille."
+  },
+  {
+    "id": "https://www.hellowork.com/fr-fr/emplois/73395675.html",
+    "source": "websearch",
+    "title": "Développeur Fullstack Node.js React Vue.js",
+    "company": "Astek",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://www.hellowork.com/fr-fr/emplois/73395675.html",
+    "date": "2026-07-20",
+    "description": "ESN, poste full stack Node.js + React.js/Vue.js en CDI a Lille."
+  },
+  {
     "id": "https://www.hellowork.com/fr-fr/emplois/76149350.html",
     "source": "hellowork",
     "title": "Développeur Full-Stack H/F",
