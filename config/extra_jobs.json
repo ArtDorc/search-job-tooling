@@ -1,5 +1,115 @@
 [
   {
+    "id": "https://www.welcometothejungle.com/fr/companies/sii/jobs/lead-developpeur-full-stack-node-js-react-f-h_lille_GS_PZj3ap2",
+    "source": "websearch",
+    "title": "Lead Développeur Full Stack – Node.js & React (F/H)",
+    "company": "Groupe SII",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://www.welcometothejungle.com/fr/companies/sii/jobs/lead-developpeur-full-stack-node-js-react-f-h_lille_GS_PZj3ap2",
+    "date": "2026-08-03",
+    "description": "ESN, poste de lead développeur full stack Node.js/React en CDI à Lille."
+  },
+  {
+    "id": "https://www.welcometothejungle.com/fr/companies/exalt/jobs/developpeur-se-fullstack-javascript-typescript-confirme_lille",
+    "source": "websearch",
+    "title": "Développeur/se Fullstack JavaScript / TypeScript confirmé(e)",
+    "company": "eXalt",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://www.welcometothejungle.com/fr/companies/exalt/jobs/developpeur-se-fullstack-javascript-typescript-confirme_lille",
+    "date": "2026-08-03",
+    "description": "ESN lilloise, poste fullstack JS/TypeScript (Node/NestJS/Express, React/Vue/Angular) en CDI à Lille."
+  },
+  {
+    "id": "https://www.hellowork.com/fr-fr/emplois/81311688.html",
+    "source": "websearch",
+    "title": "Développeur Front-End React Confirmé",
+    "company": "Vaduo Consulting",
+    "location": "Villeneuve-d'Ascq (59)",
+    "contract": "CDI",
+    "url": "https://www.hellowork.com/fr-fr/emplois/81311688.html",
+    "date": "2026-08-03",
+    "description": "Poste front-end React confirmé en CDI à Villeneuve-d'Ascq."
+  },
+  {
+    "id": "https://www.hellowork.com/fr-fr/emplois/40390026.html",
+    "source": "websearch",
+    "title": "Software Engineer Front-End Svelte Second Life (F/M/D)",
+    "company": "Decathlon Technology",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://www.hellowork.com/fr-fr/emplois/40390026.html",
+    "date": "2026-08-03",
+    "description": "Décathlon Technology, poste front-end (Svelte) en CDI à Lille."
+  },
+  {
+    "id": "https://www.hellowork.com/fr-fr/emplois/67546931.html",
+    "source": "websearch",
+    "title": "Développeur Full Stack Junior",
+    "company": "Cegid",
+    "location": "Roubaix (59)",
+    "contract": "CDI",
+    "url": "https://www.hellowork.com/fr-fr/emplois/67546931.html",
+    "date": "2026-08-03",
+    "description": "Poste de développeur full stack junior en CDI chez Cegid, à Roubaix."
+  },
+  {
+    "id": "https://www.hellowork.com/fr-fr/emplois/80538283.html",
+    "source": "websearch",
+    "title": "Développeur Full Stack",
+    "company": "Non précisé",
+    "location": "Roubaix (59)",
+    "contract": "CDD",
+    "url": "https://www.hellowork.com/fr-fr/emplois/80538283.html",
+    "date": "2026-08-03",
+    "description": "Poste de développeur full stack en CDD à Roubaix (offre relayée par France Travail)."
+  },
+  {
+    "id": "https://careers.ovhcloud.com/job/ROUBAIX-D%C3%A9veloppeur-Senior-ReactNodeJS-59100/1130013301/",
+    "source": "websearch",
+    "title": "Développeur Senior - React/NodeJS",
+    "company": "OVHcloud",
+    "location": "Roubaix (59100)",
+    "contract": "CDI",
+    "url": "https://careers.ovhcloud.com/job/ROUBAIX-D%C3%A9veloppeur-Senior-ReactNodeJS-59100/1130013301/",
+    "date": "2026-08-03",
+    "description": "OVHcloud à Roubaix, poste de développeur senior React/Node.js en CDI, siège proche du domicile d'Arthur."
+  },
+  {
+    "id": "https://www.euratechnologies.com/offres-d-emploi/319-developpeur-back-end-node-js-f-h",
+    "source": "websearch",
+    "title": "Développeur Back-End Node.js (F/H)",
+    "company": "Welleat",
+    "location": "Lille - Euratechnologies (59)",
+    "contract": "CDI",
+    "url": "https://www.euratechnologies.com/offres-d-emploi/319-developpeur-back-end-node-js-f-h",
+    "date": "2026-08-03",
+    "description": "Startup restauration collective connectée basée à Euratechnologies, conception/dev d'APIs back-end Node.js, hybride."
+  },
+  {
+    "id": "https://www.euratechnologies.com/offres-d-emploi/320-developpeur-front-end-react-f-h",
+    "source": "websearch",
+    "title": "Développeur Front-End React (F/H)",
+    "company": "Welleat",
+    "location": "Lille - Euratechnologies (59)",
+    "contract": "CDI",
+    "url": "https://www.euratechnologies.com/offres-d-emploi/320-developpeur-front-end-react-f-h",
+    "date": "2026-08-03",
+    "description": "Startup restauration collective connectée basée à Euratechnologies, équipe produit front-end React, hybride."
+  },
+  {
+    "id": "https://www.euratechnologies.com/emploi/developpeur-react-confirme-hf-cdi-utocat-cdi/",
+    "source": "websearch",
+    "title": "Développeur React Confirmé (H/F)",
+    "company": "Utocat",
+    "location": "Lille - Euratechnologies (59)",
+    "contract": "CDI",
+    "url": "https://www.euratechnologies.com/emploi/developpeur-react-confirme-hf-cdi-utocat-cdi/",
+    "date": "2026-08-03",
+    "description": "Startup basée à Euratechnologies, poste de développeur React confirmé en CDI à Lille."
+  },
+  {
     "id": "https://www.welcometothejungle.com/fr/companies/orange-1/jobs/developpeur-fullstack-react-js-node-js-f-h-f-h_villeneuve-d-ascq_ORANG_pz2m1QR",
     "source": "websearch",
     "title": "Développeur Fullstack React.js / Node.js F/H",
