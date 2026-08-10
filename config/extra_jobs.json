@@ -1,5 +1,71 @@
 [
   {
+    "id": "https://www.welcometothejungle.com/en/companies/apptweak/jobs/junior-software-developer_bruxelles_APPTW_r1YappG",
+    "source": "websearch",
+    "title": "Junior Software Engineer (Frontend / Backend / Fullstack)",
+    "company": "AppTweak",
+    "location": "Brussels, Belgium",
+    "contract": "CDI",
+    "url": "https://www.welcometothejungle.com/en/companies/apptweak/jobs/junior-software-developer_bruxelles_APPTW_r1YappG",
+    "date": "2026-08-10",
+    "description": "SaaS scale-up (ASO/app marketing analytics), junior engineer role open to frontend/backend/fullstack, hybrid 3 days office / 2 days home in Brussels."
+  },
+  {
+    "id": "https://welovedevs.com/fr/app/job/developpeur-full-stack-norauto-digital",
+    "source": "websearch",
+    "title": "Développeur Full-Stack (Digiforce)",
+    "company": "Norauto International",
+    "location": "Villeneuve-d'Ascq (59)",
+    "contract": "CDI",
+    "url": "https://welovedevs.com/fr/app/job/developpeur-full-stack-norauto-digital",
+    "date": "2026-08-10",
+    "description": "Digital hub of the Mobivia group (Norauto/Midas/A.T.U.), full-stack role on e-commerce and in-store tools, agile squad, 35-50K€."
+  },
+  {
+    "id": "https://www.welcometothejungle.com/fr/companies/swisslife-france/jobs/concepteur-trice-developpeur-euse-si-de-gestion_roubaix",
+    "source": "websearch",
+    "title": "Concepteur(trice) développeur(euse) SI de gestion",
+    "company": "Swiss Life France",
+    "location": "Roubaix (59)",
+    "contract": "CDI",
+    "url": "https://www.welcometothejungle.com/fr/companies/swisslife-france/jobs/concepteur-trice-developpeur-euse-si-de-gestion_roubaix",
+    "date": "2026-08-10",
+    "description": "Assurance/gestion, poste de concepteur-développeur SI de gestion basé à Roubaix, télétravail fréquent."
+  },
+  {
+    "id": "https://www.welcometothejungle.com/fr/companies/swisslife-france/jobs/concepteur-developpeur-crm_roubaix_SLF_xQXapVg",
+    "source": "websearch",
+    "title": "Concepteur / développeur CRM",
+    "company": "Swiss Life France",
+    "location": "Roubaix (59)",
+    "contract": "CDI",
+    "url": "https://www.welcometothejungle.com/fr/companies/swisslife-france/jobs/concepteur-developpeur-crm_roubaix_SLF_xQXapVg",
+    "date": "2026-08-10",
+    "description": "Poste de concepteur/développeur sur l'outil CRM au siège Swiss Life France à Roubaix."
+  },
+  {
+    "id": "https://www.euratechnologies.com/offres-d-emploi/137-developpeur-full-stack",
+    "source": "websearch",
+    "title": "Développeur Full Stack",
+    "company": "WeShake",
+    "location": "Lille - Euratechnologies (59)",
+    "contract": "CDI",
+    "url": "https://www.euratechnologies.com/offres-d-emploi/137-developpeur-full-stack",
+    "date": "2026-08-10",
+    "description": "Startup basée à Euratechnologies, stack front JS moderne (React) et back Node.js/Python/Ruby, poste full stack."
+  },
+  {
+    "id": "https://www.euratechnologies.com/offres-d-emploi/136-developpeur-full-stack-h-f",
+    "source": "websearch",
+    "title": "Développeur Full Stack (H/F)",
+    "company": "WeShake",
+    "location": "Lille - Euratechnologies (59)",
+    "contract": "CDI",
+    "url": "https://www.euratechnologies.com/offres-d-emploi/136-developpeur-full-stack-h-f",
+    "date": "2026-08-10",
+    "description": "Startup basée à Euratechnologies, poste full stack front-end HTML/CSS/JS et back-end."
+  },
+  {
     "id": "https://www.welcometothejungle.com/fr/companies/sii/jobs/lead-developpeur-full-stack-node-js-react-f-h_lille_GS_PZj3ap2",
     "source": "websearch",
     "title": "Lead Développeur Full Stack – Node.js & React (F/H)",
@@ -405,148 +471,5 @@
     "url": "https://tietalent.com/fr/jobs/p-230664/lille-developpeur-reactjs-fh-cdi",
     "date": "2026-07-13",
     "description": "Poste de développeur ReactJS en CDI à Lille, recrutement via ENOSI RH."
-  },
-  {
-    "id": "https://www.welcometothejungle.com/fr/companies/sii/jobs/developpeur-se-fullstack-javascript-node-js-react-js-lille_lille_GS_rDGAwoZ",
-    "source": "websearch",
-    "title": "Développeur(se) Fullstack Javascript - Node.js / React.js",
-    "company": "SII Nord",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://www.welcometothejungle.com/fr/companies/sii/jobs/developpeur-se-fullstack-javascript-node-js-react-js-lille_lille_GS_rDGAwoZ",
-    "date": "2026-07-06",
-    "description": "Node.js + React.js, 40-45K€, 5+ ans d'expérience, sur site à Lille."
-  },
-  {
-    "id": "https://www.welcometothejungle.com/fr/companies/niji/jobs/developpeur-fullstack-node-js-vue-ou-react-f-h_lille",
-    "source": "websearch",
-    "title": "Développeur Fullstack Node.js / Vue ou React (F/H)",
-    "company": "Niji",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://www.welcometothejungle.com/fr/companies/niji/jobs/developpeur-fullstack-node-js-vue-ou-react-f-h_lille",
-    "date": "2026-07-06",
-    "description": "ESN du Nord, Node.js + Vue.js/React, 3+ ans d'expérience requis."
-  },
-  {
-    "id": "https://www.welcometothejungle.com/fr/companies/listen-too/jobs/developpeur-full-stack-lille_lille",
-    "source": "websearch",
-    "title": "Développeur.se Full Stack",
-    "company": "Listen too",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://www.welcometothejungle.com/fr/companies/listen-too/jobs/developpeur-full-stack-lille_lille",
-    "date": "2026-07-06",
-    "description": "Poste full stack au sein d'une agence digitale lilloise."
-  },
-  {
-    "id": "https://www.welcometothejungle.com/fr/companies/selvitys/jobs/developpeur-full-stack-h-f-cdi_lille",
-    "source": "websearch",
-    "title": "Développeur Full Stack H/F",
-    "company": "Selvitys",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://www.welcometothejungle.com/fr/companies/selvitys/jobs/developpeur-full-stack-h-f-cdi_lille",
-    "date": "2026-07-06",
-    "description": "Développeur full stack en CDI chez Selvitys à Lille."
-  },
-  {
-    "id": "https://www.welcometothejungle.com/fr/companies/positivethinkingcompany/jobs/developpeur-se-fullstack-js_lille",
-    "source": "websearch",
-    "title": "Développeur/se Fullstack JS",
-    "company": "Positive Thinking Company",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://www.welcometothejungle.com/fr/companies/positivethinkingcompany/jobs/developpeur-se-fullstack-js_lille",
-    "date": "2026-07-06",
-    "description": "Node.js, React.js/Vue.js/Angular, avec exposition Jenkins/Ansible/Kubernetes/Docker/cloud."
-  },
-  {
-    "id": "https://fr.linkedin.com/jobs/view/dev-front-end-typescript-h-f-at-younup-3432701659",
-    "source": "websearch",
-    "title": "Dev Front-End Typescript H/F",
-    "company": "Younup",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://fr.linkedin.com/jobs/view/dev-front-end-typescript-h-f-at-younup-3432701659",
-    "date": "2026-07-06",
-    "description": "ESN lilloise, équipe front-end sur Angular 6+ ou React, TypeScript."
-  },
-  {
-    "id": "https://www.hellowork.com/fr-fr/emplois/64615722.html",
-    "source": "websearch",
-    "title": "DevOps",
-    "company": "UpMan Consulting",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://www.hellowork.com/fr-fr/emplois/64615722.html",
-    "date": "2026-07-06",
-    "description": "Shell/PowerShell, Terraform, Ansible, conteneurisation, 39-46K€+ selon expérience."
-  },
-  {
-    "id": "https://www.hellowork.com/fr-fr/emplois/70014230.html",
-    "source": "websearch",
-    "title": "Ingénieur Cloud DevOps",
-    "company": "Meritis",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://www.hellowork.com/fr-fr/emplois/70014230.html",
-    "date": "2026-07-06",
-    "description": "Ingénieur Cloud DevOps chez Meritis, agence de Lille."
-  },
-  {
-    "id": "https://www.hellowork.com/fr-fr/emplois/23835022.html",
-    "source": "websearch",
-    "title": "DevOps",
-    "company": "Otteo",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://www.hellowork.com/fr-fr/emplois/23835022.html",
-    "date": "2026-07-06",
-    "description": "3+ ans d'expérience DevOps, compétences Linux Bash et/ou PowerShell."
-  },
-  {
-    "id": "https://welovedevs.com/app/job/developpeur-full-stack-plateforme-actemium-lille-digital-solutions",
-    "source": "websearch",
-    "title": "Développeur Full Stack Plateforme",
-    "company": "Actemium Lille Digital Solutions",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://welovedevs.com/app/job/developpeur-full-stack-plateforme-actemium-lille-digital-solutions",
-    "date": "2026-07-06",
-    "description": "Développeur full stack plateforme, filiale Vinci Energies basée à Lille."
-  },
-  {
-    "id": "https://welovedevs.com/app/job/developpeur-se-fullstack-la-revanche-des-sites",
-    "source": "websearch",
-    "title": "Développeur·se Full Stack",
-    "company": "La revanche des sites",
-    "location": "Lille - Euratechnologies (59)",
-    "contract": "CDI",
-    "url": "https://welovedevs.com/app/job/developpeur-se-fullstack-la-revanche-des-sites",
-    "date": "2026-07-06",
-    "description": "Agence web basée à Euratechnologies, télétravail occasionnel."
-  },
-  {
-    "id": "https://recrutement.sergic.com/nos-offres/developpeur-full-stack-h-f/",
-    "source": "websearch",
-    "title": "Développeur Full Stack H/F",
-    "company": "SERGIC",
-    "location": "Wasquehal (59)",
-    "contract": "CDI",
-    "url": "https://recrutement.sergic.com/nos-offres/developpeur-full-stack-h-f/",
-    "date": "2026-07-06",
-    "description": "Refonte des activités du groupe sur GCP/Azure, 40-45K€ sur 13 mois, télétravail partiel, siège proche Roubaix."
-  },
-  {
-    "id": "https://be.linkedin.com/jobs/view/full-stack-developer-h-f-%E2%80%93-38h-cdi-at-chu-brugmann-3435817106",
-    "source": "websearch",
-    "title": "Full Stack Developer (H/F) – 38h",
-    "company": "CHU Brugmann",
-    "location": "Bruxelles",
-    "contract": "CDI",
-    "url": "https://be.linkedin.com/jobs/view/full-stack-developer-h-f-%E2%80%93-38h-cdi-at-chu-brugmann-3435817106",
-    "date": "2026-07-06",
-    "description": "Poste CDI 38h au sein du service IT de l'hôpital public CHU Brugmann à Bruxelles."
   }
 ]
