@@ -1,5 +1,82 @@
 [
   {
+    "id": "https://welovedevs.com/app/job/developpeur-fullstack-claranet-site-de-lille",
+    "source": "websearch",
+    "title": "Développeur Fullstack",
+    "company": "Claranet",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://welovedevs.com/app/job/developpeur-fullstack-claranet-site-de-lille",
+    "date": "2026-08-17",
+    "description": "ESN Claranet, poste de développeur fullstack pour le site de Lille, en CDI."
+  },
+  {
+    "id": "https://www.hellowork.com/fr-fr/emplois/64616680.html",
+    "source": "websearch",
+    "title": "Développeur Fullstack",
+    "company": "UpMan Consulting",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://www.hellowork.com/fr-fr/emplois/64616680.html",
+    "date": "2026-08-17",
+    "description": "Cabinet de conseil IT (Data/IA/Dev, basé à Wambrechies), poste de développeur fullstack en CDI pour des clients grands comptes à Lille."
+  },
+  {
+    "id": "https://www.euratechnologies.com/job-offers/297-developpeur-full-stack-senior-cdi",
+    "source": "websearch",
+    "title": "Développeur Full-Stack Senior (CDI)",
+    "company": "Startup Euratechnologies",
+    "location": "Lille - Euratechnologies (59)",
+    "contract": "CDI",
+    "url": "https://www.euratechnologies.com/job-offers/297-developpeur-full-stack-senior-cdi",
+    "date": "2026-08-17",
+    "description": "Startup basée à Euratechnologies, stack Next.js/React/Tailwind côté front, Node.js/API REST-GraphQL/PostgreSQL côté back, poste senior en CDI."
+  },
+  {
+    "id": "https://startup.jobs/full-stack-developer-riaktr-3264695",
+    "source": "websearch",
+    "title": "Full-Stack Developer",
+    "company": "Riaktr",
+    "location": "Brussels, Belgium",
+    "contract": "",
+    "url": "https://startup.jobs/full-stack-developer-riaktr-3264695",
+    "date": "2026-08-17",
+    "description": "Studio tech bruxellois, stack Angular/React/NestJS/Node.js/PostgreSQL/Python, poste sur site à Bruxelles."
+  },
+  {
+    "id": "https://builtin.com/job/software-engineer-frontend/6653742",
+    "source": "websearch",
+    "title": "Software Engineer, Frontend",
+    "company": "Collibra",
+    "location": "Brussels, Belgium (hybrid)",
+    "contract": "",
+    "url": "https://builtin.com/job/software-engineer-frontend/6653742",
+    "date": "2026-08-17",
+    "description": "Éditeur logiciel de gouvernance des données, poste frontend React/TypeScript/Node/GraphQL, hybride à Bruxelles (2 jours bureau/semaine)."
+  },
+  {
+    "id": "https://en.wizbii.com/company/adneom-consulting/job/full-stack-developer-74",
+    "source": "websearch",
+    "title": "Full Stack Developer",
+    "company": "Adneom Consulting (Adneom Benelux)",
+    "location": "Brussels, Belgium",
+    "contract": "CDI",
+    "url": "https://en.wizbii.com/company/adneom-consulting/job/full-stack-developer-74",
+    "date": "2026-08-17",
+    "description": "ESN belge, poste full stack front/back avec choix d'architecture front-end, CDI à Bruxelles."
+  },
+  {
+    "id": "https://welovesalt.com/jobs/technology/software-engineering/full-stack-developer-brussels-hybrid-427430",
+    "source": "websearch",
+    "title": "Full Stack Developer",
+    "company": "Salt Recruitment (client confidentiel)",
+    "location": "Brussels, Belgium (hybrid)",
+    "contract": "",
+    "url": "https://welovesalt.com/jobs/technology/software-engineering/full-stack-developer-brussels-hybrid-427430",
+    "date": "2026-08-17",
+    "description": "Poste full stack via cabinet Salt, front React/JAMstack, back Node.js/Python, Postgres/MySQL/MongoDB, hybride à Bruxelles."
+  },
+  {
     "id": "https://www.welcometothejungle.com/en/companies/apptweak/jobs/junior-software-developer_bruxelles_APPTW_r1YappG",
     "source": "websearch",
     "title": "Junior Software Engineer (Frontend / Backend / Fullstack)",
@@ -361,115 +438,5 @@
     "url": "https://www.hellowork.com/fr-fr/emplois/73395675.html",
     "date": "2026-07-20",
     "description": "ESN, poste full stack Node.js + React.js/Vue.js en CDI a Lille."
-  },
-  {
-    "id": "https://www.hellowork.com/fr-fr/emplois/76149350.html",
-    "source": "hellowork",
-    "title": "Développeur Full-Stack H/F",
-    "company": "CELAD Lille",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://www.hellowork.com/fr-fr/emplois/76149350.html",
-    "date": "2026-07-13",
-    "description": "ESN lilloise, poste de développeur full stack en CDI à Lille."
-  },
-  {
-    "id": "https://www.hellowork.com/fr-fr/emplois/77942748.html",
-    "source": "hellowork",
-    "title": "Développeur Full Stack SI",
-    "company": "Lille Métropole Habitat",
-    "location": "Tourcoing (59)",
-    "contract": "CDI",
-    "url": "https://www.hellowork.com/fr-fr/emplois/77942748.html",
-    "date": "2026-07-13",
-    "description": "Modernisation du SI : développement de nouvelles applications web, API et outils data, 37-50,5K€."
-  },
-  {
-    "id": "https://welovedevs.com/app/job/developpeur-full-stack-cdi-lylo-media-group",
-    "source": "welovedevs",
-    "title": "Développeur Fullstack - NodeJS / Typescript",
-    "company": "Lylo Media Group",
-    "location": "Lille",
-    "contract": "CDI",
-    "url": "https://welovedevs.com/app/job/developpeur-full-stack-cdi-lylo-media-group",
-    "date": "2026-07-13",
-    "description": "Équipe R&D, plateforme web collaborative en Node.js/Vue.js/Docker/AWS, groupe TransPerfect."
-  },
-  {
-    "id": "https://welovedevs.com/app/job/sogeti-developpeur-fullstack-lille-hf-sogeti",
-    "source": "welovedevs",
-    "title": "Développeur FullStack Lille H/F",
-    "company": "Sogeti",
-    "location": "Lille",
-    "contract": "CDI",
-    "url": "https://welovedevs.com/app/job/sogeti-developpeur-fullstack-lille-hf-sogeti",
-    "date": "2026-07-13",
-    "description": "ESN du groupe Capgemini, poste de développeur full stack en CDI à Lille."
-  },
-  {
-    "id": "https://www.hellowork.com/fr-fr/emplois/60252204.html",
-    "source": "hellowork",
-    "title": "DevOps",
-    "company": "Uniware Global Services",
-    "location": "Lille (59) - full remote",
-    "contract": "CDI",
-    "url": "https://www.hellowork.com/fr-fr/emplois/60252204.html",
-    "date": "2026-07-13",
-    "description": "Python/PowerShell/Bash, Docker, Terraform, Kubernetes, Jenkins, AWS/Azure/GCP, 50-70K€, full remote."
-  },
-  {
-    "id": "https://www.welcometothejungle.com/fr/companies/sii/jobs/developpeur-fullstack-react-nodejs-f-h_lille",
-    "source": "welcometothejungle",
-    "title": "Développeur fullstack React/Nodejs (F/H)",
-    "company": "Groupe SII",
-    "location": "Lille",
-    "contract": "CDI",
-    "url": "https://www.welcometothejungle.com/fr/companies/sii/jobs/developpeur-fullstack-react-nodejs-f-h_lille",
-    "date": "2026-07-13",
-    "description": "ESN, poste full stack React.js/Node.js en CDI à Lille."
-  },
-  {
-    "id": "https://bebee.com/be/jobs/full-stack-developer-typescript-nodejs-remote-hybrid-talent-r-brussels-brussels-region--theirstack-688943867",
-    "source": "bebee",
-    "title": "Full Stack Developer (TypeScript + Node.js)",
-    "company": "Talent-R (client scale-up)",
-    "location": "Brussels - hybrid (2-3j remote/semaine)",
-    "contract": "CDI",
-    "url": "https://bebee.com/be/jobs/full-stack-developer-typescript-nodejs-remote-hybrid-talent-r-brussels-brussels-region--theirstack-688943867",
-    "date": "2026-07-13",
-    "description": "Scale-up SaaS belge, stack Node.js/TypeScript/PostgreSQL/React/Next.js, jusqu'à 65K€ + ESOP."
-  },
-  {
-    "id": "https://welovedevs.com/app/fr/job/developpeur-full-stack-pit-1",
-    "source": "welovedevs",
-    "title": "Développeur Full Stack",
-    "company": "PIT",
-    "location": "Lille",
-    "contract": "CDI",
-    "url": "https://welovedevs.com/app/fr/job/developpeur-full-stack-pit-1",
-    "date": "2026-07-13",
-    "description": "2 ans d'expérience, 30-36K€, hybride 2 jours de télétravail/semaine."
-  },
-  {
-    "id": "https://welovedevs.com/app/job/developpeur-front-end-norsys",
-    "source": "welovedevs",
-    "title": "Développeur Front-End JavaScript",
-    "company": "Norsys",
-    "location": "Lille",
-    "contract": "CDI",
-    "url": "https://welovedevs.com/app/job/developpeur-front-end-norsys",
-    "date": "2026-07-13",
-    "description": "ESN, front-end sur frameworks JS actuels (React/Angular/Vue), CDI à Lille."
-  },
-  {
-    "id": "https://tietalent.com/fr/jobs/p-230664/lille-developpeur-reactjs-fh-cdi",
-    "source": "tietalent",
-    "title": "Développeur ReactJS F/H",
-    "company": "ENOSI RH",
-    "location": "Lille",
-    "contract": "CDI",
-    "url": "https://tietalent.com/fr/jobs/p-230664/lille-developpeur-reactjs-fh-cdi",
-    "date": "2026-07-13",
-    "description": "Poste de développeur ReactJS en CDI à Lille, recrutement via ENOSI RH."
   }
 ]
