@@ -1,5 +1,93 @@
 [
   {
+    "id": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-se-fullstack-js-node-react-@exalt-lille-at-exalt-3928855909",
+    "source": "websearch",
+    "title": "Développeur/se Fullstack JS - Node / React",
+    "company": "eXalt",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-se-fullstack-js-node-react-@exalt-lille-at-exalt-3928855909",
+    "date": "2026-08-31",
+    "description": "Poste fullstack JavaScript chez eXalt à Lille, stack Node.js et React."
+  },
+  {
+    "id": "https://www.free-work.com/fr/tech-it/developpeur-fullstack/job-mission/developpeur-fullstack-345",
+    "source": "websearch",
+    "title": "Développeur Fullstack",
+    "company": "CAT-AMANIA",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://www.free-work.com/fr/tech-it/developpeur-fullstack/job-mission/developpeur-fullstack-345",
+    "date": "2026-08-31",
+    "description": "Fullstack NodeJS/ReactJS ou Java/Angular, 5-10 ans d'XP, télétravail partiel à Lille."
+  },
+  {
+    "id": "https://fr.linkedin.com/jobs/view/software-engineer-node-shopping-app-platform-team-f-m-d-at-decathlon-digital-3713869516",
+    "source": "websearch",
+    "title": "Software Engineer Node - Shopping App Platform team (f/m/d)",
+    "company": "Decathlon Digital",
+    "location": "Villeneuve-d'Ascq (59)",
+    "contract": "CDI",
+    "url": "https://fr.linkedin.com/jobs/view/software-engineer-node-shopping-app-platform-team-f-m-d-at-decathlon-digital-3713869516",
+    "date": "2026-08-31",
+    "description": "Ingénieur logiciel Node.js sur la plateforme shopping app de Decathlon Digital."
+  },
+  {
+    "id": "https://www.welcometothejungle.com/fr/companies/inetum/jobs/developpeur-reactjs-h-f_lille",
+    "source": "websearch",
+    "title": "Développeur ReactJS H/F",
+    "company": "Inetum",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://www.welcometothejungle.com/fr/companies/inetum/jobs/developpeur-reactjs-h-f_lille",
+    "date": "2026-08-31",
+    "description": "Développeur front ReactJS chez Inetum, ESN, missions clients à Lille."
+  },
+  {
+    "id": "https://adn-consulting.fr/jobs/developpeur-fullstack-h-f-lille/",
+    "source": "websearch",
+    "title": "Développeur Fullstack H/F",
+    "company": "ADN Consulting",
+    "location": "Lille",
+    "contract": "CDI",
+    "url": "https://adn-consulting.fr/jobs/developpeur-fullstack-h-f-lille/",
+    "date": "2026-08-31",
+    "description": "Fullstack Java/Spring et Node.js, Docker/Kubernetes, cloud, minimum 4 ans d'expérience."
+  },
+  {
+    "id": "https://www.collective.work/jobs/fr/developpeur-fullstack-hf-qxmz",
+    "source": "websearch",
+    "title": "Développeur Fullstack H/F",
+    "company": "Collective.work",
+    "location": "Lille",
+    "contract": "CDI",
+    "url": "https://www.collective.work/jobs/fr/developpeur-fullstack-hf-qxmz",
+    "date": "2026-08-31",
+    "description": "Poste fullstack en CDI à Lille, hybride."
+  },
+  {
+    "id": "https://www.actiris.brussels/fr/citoyens/detail-offre-d-emploi/?reference=5829906",
+    "source": "websearch",
+    "title": "Fullstack Node.js Developer M/V/X",
+    "company": "Non précisé",
+    "location": "Bruxelles",
+    "contract": "CDI",
+    "url": "https://www.actiris.brussels/fr/citoyens/detail-offre-d-emploi/?reference=5829906",
+    "date": "2026-08-31",
+    "description": "Node.js, TypeScript, ExpressJS côté back et React côté front, environnement multiculturel anglophone."
+  },
+  {
+    "id": "https://www.actiris.brussels/fr/citoyens/detail-offre-d-emploi/?reference=5869183",
+    "source": "websearch",
+    "title": "React Developer (Fullstack) M/V/X",
+    "company": "Non précisé",
+    "location": "Bruxelles",
+    "contract": "CDI",
+    "url": "https://www.actiris.brussels/fr/citoyens/detail-offre-d-emploi/?reference=5869183",
+    "date": "2026-08-31",
+    "description": "Front React/TypeScript avec intégration back .NET, applications web complexes."
+  },
+  {
     "id": "https://www.welcometothejungle.com/fr/companies/humans-matter/jobs/full-remote-lead-developpeur-full-stack-react-node-js-typescript-h-f-cdi",
     "source": "websearch",
     "title": "Lead Développeur full-stack - React/Node.js/Typescript (H/F)",
@@ -328,104 +416,5 @@
     "url": "https://www.euratechnologies.com/emploi/developpeur-react-confirme-hf-cdi-utocat-cdi/",
     "date": "2026-08-03",
     "description": "Startup basée à Euratechnologies, poste de développeur React confirmé en CDI à Lille."
-  },
-  {
-    "id": "https://www.welcometothejungle.com/fr/companies/orange-1/jobs/developpeur-fullstack-react-js-node-js-f-h-f-h_villeneuve-d-ascq_ORANG_pz2m1QR",
-    "source": "websearch",
-    "title": "Développeur Fullstack React.js / Node.js F/H",
-    "company": "Orange",
-    "location": "Villeneuve-d'Ascq (59)",
-    "contract": "CDI",
-    "url": "https://www.welcometothejungle.com/fr/companies/orange-1/jobs/developpeur-fullstack-react-js-node-js-f-h-f-h_villeneuve-d-ascq_ORANG_pz2m1QR",
-    "date": "2026-07-27",
-    "description": "Poste fullstack React.js/Node.js chez Orange, sur le campus de Villeneuve-d'Ascq, en CDI."
-  },
-  {
-    "id": "https://www.welcometothejungle.com/fr/companies/zatsit/jobs/developpeur-full-stack-h-f_lille",
-    "source": "websearch",
-    "title": "Développeur Full Stack H/F",
-    "company": "Zatsit",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://www.welcometothejungle.com/fr/companies/zatsit/jobs/developpeur-full-stack-h-f_lille",
-    "date": "2026-07-27",
-    "description": "Cabinet de conseil IT lillois, poste de développeur full stack en CDI à Lille."
-  },
-  {
-    "id": "https://www.welcometothejungle.com/fr/companies/meritis/jobs/developpeur-fullstack-f-h_lille",
-    "source": "websearch",
-    "title": "Développeur Fullstack (F/H)",
-    "company": "Meritis",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://www.welcometothejungle.com/fr/companies/meritis/jobs/developpeur-fullstack-f-h_lille",
-    "date": "2026-07-27",
-    "description": "ESN Meritis, agence de Lille, poste de développeur fullstack en CDI (distinct du poste DevOps déjà suivi côté Meritis)."
-  },
-  {
-    "id": "https://www.welcometothejungle.com/fr/companies/isagri/jobs/developpeur-fullstack-h-f_lille",
-    "source": "websearch",
-    "title": "Développeur Fullstack H/F",
-    "company": "ISAGRI",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://www.welcometothejungle.com/fr/companies/isagri/jobs/developpeur-fullstack-h-f_lille",
-    "date": "2026-07-27",
-    "description": "Éditeur de logiciels agricoles, poste de développeur fullstack en CDI à Lille."
-  },
-  {
-    "id": "https://www.welcometothejungle.com/fr/companies/nexton-consulting/jobs/developpeur-fullstack-h-f_lille_NEXTO_0VNjAk",
-    "source": "websearch",
-    "title": "Développeur FullStack H/F",
-    "company": "NEXTON",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://www.welcometothejungle.com/fr/companies/nexton-consulting/jobs/developpeur-fullstack-h-f_lille_NEXTO_0VNjAk",
-    "date": "2026-07-27",
-    "description": "Cabinet de conseil tech NEXTON, poste de développeur fullstack en CDI à Lille."
-  },
-  {
-    "id": "https://www.welcometothejungle.com/fr/companies/group-wiiisdom-software/jobs/developpeur-full-stack-experimente-f-m_lille",
-    "source": "websearch",
-    "title": "Développeur Full Stack Expérimenté (F/M)",
-    "company": "Wiiisdom Software",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://www.welcometothejungle.com/fr/companies/group-wiiisdom-software/jobs/developpeur-full-stack-experimente-f-m_lille",
-    "date": "2026-07-27",
-    "description": "Éditeur logiciel (plateforme Wiiisdom), poste full stack expérimenté en CDI à Lille."
-  },
-  {
-    "id": "https://www.welcometothejungle.com/fr/companies/group-wiiisdom-software/jobs/developpeur-se-full-stack-junior-f-m_lille",
-    "source": "websearch",
-    "title": "Développeur(se) Full Stack 3 ans XP (F/M)",
-    "company": "Wiiisdom Software",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://www.welcometothejungle.com/fr/companies/group-wiiisdom-software/jobs/developpeur-se-full-stack-junior-f-m_lille",
-    "date": "2026-07-27",
-    "description": "Même éditeur (plateforme Wiiisdom), poste full stack pour profil autour de 3 ans d'expérience, CDI à Lille."
-  },
-  {
-    "id": "https://www.hellowork.com/fr-fr/emplois/80060985.html",
-    "source": "websearch",
-    "title": "Développeur Full Stack React Node.Js",
-    "company": "Collectivité",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://www.hellowork.com/fr-fr/emplois/80060985.html",
-    "date": "2026-07-27",
-    "description": "Poste full stack React/Node.js en CDI à Lille, recrutement par une collectivité (secteur public)."
-  },
-  {
-    "id": "https://welovedevs.com/app/job/developpeur-react-js-hf-wemanity-lille",
-    "source": "websearch",
-    "title": "Développeur React JS (H/F)",
-    "company": "Wemanity",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://welovedevs.com/app/job/developpeur-react-js-hf-wemanity-lille",
-    "date": "2026-07-27",
-    "description": "ESN internationale Wemanity, poste front-end React JS en CDI à Lille, salaire indicatif 35-45K€."
   }
 ]
