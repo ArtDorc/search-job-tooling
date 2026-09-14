@@ -1,5 +1,104 @@
 [
   {
+    "id": "https://www.welcometothejungle.com/fr/companies/sii/jobs/developpeur-se-full-stack-ia-generative-et-agentic-workflow_lille",
+    "source": "websearch",
+    "title": "Développeur·se Full Stack – IA Générative et Agentic Workflow",
+    "company": "Groupe SII",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://www.welcometothejungle.com/fr/companies/sii/jobs/developpeur-se-full-stack-ia-generative-et-agentic-workflow_lille",
+    "date": "2026-09-14",
+    "description": "ESN SII Nord, poste fullstack orienté agentic coding/LLM, stack Kafka/Prisma/PostgreSQL/GCP-GKE, CDI à Lille."
+  },
+  {
+    "id": "https://www.hellowork.com/fr-fr/emplois/82946546.html",
+    "source": "websearch",
+    "title": "Développeur React (H/F)",
+    "company": "Astek",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://www.hellowork.com/fr-fr/emplois/82946546.html",
+    "date": "2026-09-14",
+    "description": "ESN Astek, poste de développeur React front-end, CDI à Lille."
+  },
+  {
+    "id": "https://www.hellowork.com/fr-fr/emplois/82696274.html",
+    "source": "websearch",
+    "title": "Développeur/se Javascript Sénior",
+    "company": "Ouidou Nord",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://www.hellowork.com/fr-fr/emplois/82696274.html",
+    "date": "2026-09-14",
+    "description": "Stack React/Node.js/Next.js, 7 ans d'XP minimum, CDI à Lille, transport en commun remboursé, mutuelle Alan."
+  },
+  {
+    "id": "https://www.dreamworkhq.com/job/1b1fd3c6-0e5c-464f-bdfe-9c49d3c0005b",
+    "source": "websearch",
+    "title": "Développeur(se) Fullstack Expérimenté(e) - Développement Régional",
+    "company": "SopraSteria",
+    "location": "Villeneuve-d'Ascq (59)",
+    "contract": "CDI",
+    "url": "https://www.dreamworkhq.com/job/1b1fd3c6-0e5c-464f-bdfe-9c49d3c0005b",
+    "date": "2026-09-14",
+    "description": "ESN SopraSteria, poste fullstack expérimenté sur le développement régional, 50-65K€, Villeneuve-d'Ascq."
+  },
+  {
+    "id": "https://www.hellowork.com/fr-fr/emplois/82755047.html",
+    "source": "websearch",
+    "title": "Développeur Full Stack Typescript React PostgreSQL",
+    "company": "Naxo",
+    "location": "Lille (59)",
+    "contract": "",
+    "url": "https://www.hellowork.com/fr-fr/emplois/82755047.html",
+    "date": "2026-09-14",
+    "description": "Cabinet de recrutement Naxo, poste fullstack TypeScript/React/PostgreSQL à Lille."
+  },
+  {
+    "id": "https://www.hellowork.com/fr-fr/emplois/82680838.html",
+    "source": "websearch",
+    "title": "Développeur Senior Fullstack Typescript React NestJS",
+    "company": "Naxo",
+    "location": "Lille (59)",
+    "contract": "",
+    "url": "https://www.hellowork.com/fr-fr/emplois/82680838.html",
+    "date": "2026-09-14",
+    "description": "Cabinet de recrutement Naxo, poste fullstack senior TypeScript/React/NestJS à Lille."
+  },
+  {
+    "id": "https://www.hellowork.com/fr-fr/emplois/82672040.html",
+    "source": "websearch",
+    "title": "Développeur Back-End Node.js TypeScript",
+    "company": "Naxo",
+    "location": "Lille (59)",
+    "contract": "",
+    "url": "https://www.hellowork.com/fr-fr/emplois/82672040.html",
+    "date": "2026-09-14",
+    "description": "Cabinet de recrutement Naxo, poste backend Node.js/TypeScript à Lille."
+  },
+  {
+    "id": "https://www.hellowork.com/fr-fr/emplois/83099201.html",
+    "source": "websearch",
+    "title": "Développeur·se Full Stack TypeScript React - Email & Marketing Cloud",
+    "company": "Skiils",
+    "location": "Lille (59)",
+    "contract": "Freelance",
+    "url": "https://www.hellowork.com/fr-fr/emplois/83099201.html",
+    "date": "2026-09-14",
+    "description": "Mission fullstack TypeScript/React sur un projet email/marketing cloud, hybride (2j remote/semaine), TJM ~420€, Lille."
+  },
+  {
+    "id": "https://www.hellowork.com/fr-fr/emplois/82913035.html",
+    "source": "websearch",
+    "title": "Senior Software Engineer Fullstack TypeScript React",
+    "company": "Skiils",
+    "location": "Lille (59)",
+    "contract": "",
+    "url": "https://www.hellowork.com/fr-fr/emplois/82913035.html",
+    "date": "2026-09-14",
+    "description": "Cabinet Skiils, poste senior fullstack TypeScript/React à Lille."
+  },
+  {
     "id": "https://www.hellowork.com/fr-fr/emplois/82552314.html",
     "source": "websearch",
     "title": "Développeur Fullstack Node.Js React ou Vue.Js",
@@ -295,71 +394,5 @@
     "url": "https://welovesalt.com/jobs/technology/software-engineering/full-stack-developer-brussels-hybrid-427430",
     "date": "2026-08-17",
     "description": "Poste full stack via cabinet Salt, front React/JAMstack, back Node.js/Python, Postgres/MySQL/MongoDB, hybride à Bruxelles."
-  },
-  {
-    "id": "https://www.welcometothejungle.com/en/companies/apptweak/jobs/junior-software-developer_bruxelles_APPTW_r1YappG",
-    "source": "websearch",
-    "title": "Junior Software Engineer (Frontend / Backend / Fullstack)",
-    "company": "AppTweak",
-    "location": "Brussels, Belgium",
-    "contract": "CDI",
-    "url": "https://www.welcometothejungle.com/en/companies/apptweak/jobs/junior-software-developer_bruxelles_APPTW_r1YappG",
-    "date": "2026-08-10",
-    "description": "SaaS scale-up (ASO/app marketing analytics), junior engineer role open to frontend/backend/fullstack, hybrid 3 days office / 2 days home in Brussels."
-  },
-  {
-    "id": "https://welovedevs.com/fr/app/job/developpeur-full-stack-norauto-digital",
-    "source": "websearch",
-    "title": "Développeur Full-Stack (Digiforce)",
-    "company": "Norauto International",
-    "location": "Villeneuve-d'Ascq (59)",
-    "contract": "CDI",
-    "url": "https://welovedevs.com/fr/app/job/developpeur-full-stack-norauto-digital",
-    "date": "2026-08-10",
-    "description": "Digital hub of the Mobivia group (Norauto/Midas/A.T.U.), full-stack role on e-commerce and in-store tools, agile squad, 35-50K€."
-  },
-  {
-    "id": "https://www.welcometothejungle.com/fr/companies/swisslife-france/jobs/concepteur-trice-developpeur-euse-si-de-gestion_roubaix",
-    "source": "websearch",
-    "title": "Concepteur(trice) développeur(euse) SI de gestion",
-    "company": "Swiss Life France",
-    "location": "Roubaix (59)",
-    "contract": "CDI",
-    "url": "https://www.welcometothejungle.com/fr/companies/swisslife-france/jobs/concepteur-trice-developpeur-euse-si-de-gestion_roubaix",
-    "date": "2026-08-10",
-    "description": "Assurance/gestion, poste de concepteur-développeur SI de gestion basé à Roubaix, télétravail fréquent."
-  },
-  {
-    "id": "https://www.welcometothejungle.com/fr/companies/swisslife-france/jobs/concepteur-developpeur-crm_roubaix_SLF_xQXapVg",
-    "source": "websearch",
-    "title": "Concepteur / développeur CRM",
-    "company": "Swiss Life France",
-    "location": "Roubaix (59)",
-    "contract": "CDI",
-    "url": "https://www.welcometothejungle.com/fr/companies/swisslife-france/jobs/concepteur-developpeur-crm_roubaix_SLF_xQXapVg",
-    "date": "2026-08-10",
-    "description": "Poste de concepteur/développeur sur l'outil CRM au siège Swiss Life France à Roubaix."
-  },
-  {
-    "id": "https://www.euratechnologies.com/offres-d-emploi/137-developpeur-full-stack",
-    "source": "websearch",
-    "title": "Développeur Full Stack",
-    "company": "WeShake",
-    "location": "Lille - Euratechnologies (59)",
-    "contract": "CDI",
-    "url": "https://www.euratechnologies.com/offres-d-emploi/137-developpeur-full-stack",
-    "date": "2026-08-10",
-    "description": "Startup basée à Euratechnologies, stack front JS moderne (React) et back Node.js/Python/Ruby, poste full stack."
-  },
-  {
-    "id": "https://www.euratechnologies.com/offres-d-emploi/136-developpeur-full-stack-h-f",
-    "source": "websearch",
-    "title": "Développeur Full Stack (H/F)",
-    "company": "WeShake",
-    "location": "Lille - Euratechnologies (59)",
-    "contract": "CDI",
-    "url": "https://www.euratechnologies.com/offres-d-emploi/136-developpeur-full-stack-h-f",
-    "date": "2026-08-10",
-    "description": "Startup basée à Euratechnologies, poste full stack front-end HTML/CSS/JS et back-end."
   }
 ]
