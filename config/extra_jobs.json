@@ -1,5 +1,27 @@
 [
   {
+    "id": "https://www.hellowork.com/fr-fr/emplois/61861639.html",
+    "source": "websearch",
+    "title": "Développeur Fullstack Node.Js Vue ou React",
+    "company": "Niji",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://www.hellowork.com/fr-fr/emplois/61861639.html",
+    "date": "2026-09-21",
+    "description": "ESN Niji, poste fullstack Node.js avec Vue.js ou React, CDI à Lille."
+  },
+  {
+    "id": "https://mobiskill.fr/job/developpeur-se-fullstack-react-node-7825-71/",
+    "source": "websearch",
+    "title": "Développeur·se fullstack React/Node",
+    "company": "Non précisé",
+    "location": "Lille (59)",
+    "contract": "CDI",
+    "url": "https://mobiskill.fr/job/developpeur-se-fullstack-react-node-7825-71/",
+    "date": "2026-09-21",
+    "description": "Poste fullstack React/Node.js à Lille, CDI."
+  },
+  {
     "id": "https://www.welcometothejungle.com/fr/companies/sii/jobs/developpeur-se-full-stack-ia-generative-et-agentic-workflow_lille",
     "source": "websearch",
     "title": "Développeur·se Full Stack – IA Générative et Agentic Workflow",
@@ -317,82 +339,5 @@
     "url": "https://www.euratechnologies.com/en/job-offers/171-developpeur-fullstack-node-et-js",
     "date": "2026-08-24",
     "description": "Cabinet de conseil basé à Euratechnologies, poste fullstack Node.js/JS avec évolution possible vers lead dev/tech lead/architecte, CDI."
-  },
-  {
-    "id": "https://welovedevs.com/app/job/developpeur-fullstack-claranet-site-de-lille",
-    "source": "websearch",
-    "title": "Développeur Fullstack",
-    "company": "Claranet",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://welovedevs.com/app/job/developpeur-fullstack-claranet-site-de-lille",
-    "date": "2026-08-17",
-    "description": "ESN Claranet, poste de développeur fullstack pour le site de Lille, en CDI."
-  },
-  {
-    "id": "https://www.hellowork.com/fr-fr/emplois/64616680.html",
-    "source": "websearch",
-    "title": "Développeur Fullstack",
-    "company": "UpMan Consulting",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://www.hellowork.com/fr-fr/emplois/64616680.html",
-    "date": "2026-08-17",
-    "description": "Cabinet de conseil IT (Data/IA/Dev, basé à Wambrechies), poste de développeur fullstack en CDI pour des clients grands comptes à Lille."
-  },
-  {
-    "id": "https://www.euratechnologies.com/job-offers/297-developpeur-full-stack-senior-cdi",
-    "source": "websearch",
-    "title": "Développeur Full-Stack Senior (CDI)",
-    "company": "Startup Euratechnologies",
-    "location": "Lille - Euratechnologies (59)",
-    "contract": "CDI",
-    "url": "https://www.euratechnologies.com/job-offers/297-developpeur-full-stack-senior-cdi",
-    "date": "2026-08-17",
-    "description": "Startup basée à Euratechnologies, stack Next.js/React/Tailwind côté front, Node.js/API REST-GraphQL/PostgreSQL côté back, poste senior en CDI."
-  },
-  {
-    "id": "https://startup.jobs/full-stack-developer-riaktr-3264695",
-    "source": "websearch",
-    "title": "Full-Stack Developer",
-    "company": "Riaktr",
-    "location": "Brussels, Belgium",
-    "contract": "",
-    "url": "https://startup.jobs/full-stack-developer-riaktr-3264695",
-    "date": "2026-08-17",
-    "description": "Studio tech bruxellois, stack Angular/React/NestJS/Node.js/PostgreSQL/Python, poste sur site à Bruxelles."
-  },
-  {
-    "id": "https://builtin.com/job/software-engineer-frontend/6653742",
-    "source": "websearch",
-    "title": "Software Engineer, Frontend",
-    "company": "Collibra",
-    "location": "Brussels, Belgium (hybrid)",
-    "contract": "",
-    "url": "https://builtin.com/job/software-engineer-frontend/6653742",
-    "date": "2026-08-17",
-    "description": "Éditeur logiciel de gouvernance des données, poste frontend React/TypeScript/Node/GraphQL, hybride à Bruxelles (2 jours bureau/semaine)."
-  },
-  {
-    "id": "https://en.wizbii.com/company/adneom-consulting/job/full-stack-developer-74",
-    "source": "websearch",
-    "title": "Full Stack Developer",
-    "company": "Adneom Consulting (Adneom Benelux)",
-    "location": "Brussels, Belgium",
-    "contract": "CDI",
-    "url": "https://en.wizbii.com/company/adneom-consulting/job/full-stack-developer-74",
-    "date": "2026-08-17",
-    "description": "ESN belge, poste full stack front/back avec choix d'architecture front-end, CDI à Bruxelles."
-  },
-  {
-    "id": "https://welovesalt.com/jobs/technology/software-engineering/full-stack-developer-brussels-hybrid-427430",
-    "source": "websearch",
-    "title": "Full Stack Developer",
-    "company": "Salt Recruitment (client confidentiel)",
-    "location": "Brussels, Belgium (hybrid)",
-    "contract": "",
-    "url": "https://welovesalt.com/jobs/technology/software-engineering/full-stack-developer-brussels-hybrid-427430",
-    "date": "2026-08-17",
-    "description": "Poste full stack via cabinet Salt, front React/JAMstack, back Node.js/Python, Postgres/MySQL/MongoDB, hybride à Bruxelles."
   }
 ]
