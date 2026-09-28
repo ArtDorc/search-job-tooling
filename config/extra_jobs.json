@@ -1,5 +1,16 @@
 [
   {
+    "id": "https://freehire.me/jobs/developpeur-full-stack-node-js-vue-js-h-f-groupe-lr-technologies-tzytaifw",
+    "source": "websearch",
+    "title": "Développeur Full Stack Node.js / Vue.js H/F",
+    "company": "Groupe LR Technologies",
+    "location": "Lille",
+    "contract": "CDI",
+    "url": "https://freehire.me/jobs/developpeur-full-stack-node-js-vue-js-h-f-groupe-lr-technologies-tzytaifw",
+    "date": "2026-09-28",
+    "description": "Groupe LR Technologies, poste fullstack Node.js/Vue.js, CDI à Lille."
+  },
+  {
     "id": "https://www.hellowork.com/fr-fr/emplois/61861639.html",
     "source": "websearch",
     "title": "Développeur Fullstack Node.Js Vue ou React",
@@ -262,82 +273,5 @@
     "url": "https://www.actiris.brussels/fr/citoyens/detail-offre-d-emploi/?reference=5869183",
     "date": "2026-08-31",
     "description": "Front React/TypeScript avec intégration back .NET, applications web complexes."
-  },
-  {
-    "id": "https://www.welcometothejungle.com/fr/companies/humans-matter/jobs/full-remote-lead-developpeur-full-stack-react-node-js-typescript-h-f-cdi",
-    "source": "websearch",
-    "title": "Lead Développeur full-stack - React/Node.js/Typescript (H/F)",
-    "company": "Humans Matter",
-    "location": "Télétravail total (France)",
-    "contract": "CDI",
-    "url": "https://www.welcometothejungle.com/fr/companies/humans-matter/jobs/full-remote-lead-developpeur-full-stack-react-node-js-typescript-h-f-cdi",
-    "date": "2026-08-24",
-    "description": "Poste lead fullstack React/Node.js/TypeScript en full remote, CDI, compatible avec une base à Roubaix."
-  },
-  {
-    "id": "https://www.hellowork.com/fr-fr/emplois/82475748.html",
-    "source": "websearch",
-    "title": "Développeur Full Stack Typescript Python Confirmé",
-    "company": "WeSyn",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://www.hellowork.com/fr-fr/emplois/82475748.html",
-    "date": "2026-08-24",
-    "description": "Groupe international habitat, construction d'une plateforme IA générative interne, stack TypeScript/Python/VueJS/React/NextJS/FastAPI/Django/GCP, 38-45K€, télétravail partiel, Lille."
-  },
-  {
-    "id": "https://www.free-work.com/fr/tech-it/developpeur-autre-langage-cobol-perl-vba-ruby-shell/job-mission/developpeur-full-stack-reactjs-nodejs-h-f",
-    "source": "websearch",
-    "title": "Développeur Full Stack ReactJS/NodeJS (H/F)",
-    "company": "WINSIDE Technology",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://www.free-work.com/fr/tech-it/developpeur-autre-langage-cobol-perl-vba-ruby-shell/job-mission/developpeur-full-stack-reactjs-nodejs-h-f",
-    "date": "2026-08-24",
-    "description": "CDI 45-55K€/an, poste fullstack React.js/Node.js, 5 à 10 ans d'expérience, télétravail partiel, Lille."
-  },
-  {
-    "id": "https://www.free-work.com/fr/tech-it/developpeur-fullstack/job-mission/developpeur-fullstack-383",
-    "source": "websearch",
-    "title": "Développeur FullStack",
-    "company": "ANDEMA",
-    "location": "Lille (59000)",
-    "contract": "CDI",
-    "url": "https://www.free-work.com/fr/tech-it/developpeur-fullstack/job-mission/developpeur-fullstack-383",
-    "date": "2026-08-24",
-    "description": "CDI 40-45K€/an, poste disponible immédiatement, 2 à 5 ans d'expérience, télétravail partiel, Lille."
-  },
-  {
-    "id": "https://www.free-work.com/fr/tech-it/developpeur-web/job-mission/kba-developpeur-fullstack-react-js-lille",
-    "source": "websearch",
-    "title": "Développeur fullstack React JS",
-    "company": "OUICODING (KBA)",
-    "location": "Lille (59)",
-    "contract": "Freelance",
-    "url": "https://www.free-work.com/fr/tech-it/developpeur-web/job-mission/kba-developpeur-fullstack-react-js-lille",
-    "date": "2026-08-24",
-    "description": "Mission fullstack React Native/TypeScript/React JS/Node JS, démarrage immédiat, Lille."
-  },
-  {
-    "id": "https://www.welcometothejungle.com/fr/companies/indy/jobs/developpeur-euse-fullstack-nodejs-vuejs",
-    "source": "websearch",
-    "title": "Sénior Développeur Fullstack NodeJS & VueJS (H/F)",
-    "company": "Indy",
-    "location": "Télétravail total (France)",
-    "contract": "CDI",
-    "url": "https://www.welcometothejungle.com/fr/companies/indy/jobs/developpeur-euse-fullstack-nodejs-vuejs",
-    "date": "2026-08-24",
-    "description": "Indy (fintech comptabilité en ligne), poste senior fullstack Node.js/Vue.js, CDI en télétravail total."
-  },
-  {
-    "id": "https://www.euratechnologies.com/en/job-offers/171-developpeur-fullstack-node-et-js",
-    "source": "websearch",
-    "title": "Développeur Fullstack Node et JS",
-    "company": "Cabinet conseil - Euratechnologies",
-    "location": "Lille - Euratechnologies (59)",
-    "contract": "CDI",
-    "url": "https://www.euratechnologies.com/en/job-offers/171-developpeur-fullstack-node-et-js",
-    "date": "2026-08-24",
-    "description": "Cabinet de conseil basé à Euratechnologies, poste fullstack Node.js/JS avec évolution possible vers lead dev/tech lead/architecte, CDI."
   }
 ]
