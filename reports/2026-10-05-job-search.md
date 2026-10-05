@@ -7,25 +7,25 @@ New matching roles found: **2** (showing top 2).
 
 | # | Score | Role | Company | Location | Link |
 |---|-------|------|---------|----------|------|
-| 1 | 29 | Full Stack JavaScript Developer (React & Node.js) | IT International Mobility | Brussels | [offer](https://www.hubmub.com/jobs/342017/full-stack-javascript-developer-react-nodejs) |
-| 2 | 14 | Analyste développeur Full-stack (H/F) | Non précisé | 59 - Lille | [offer](https://candidat.francetravail.fr/offres/recherche/detail/7657775) |
+| 1 | 13 | Développeur Powerbuilder (H/F) | SOCIETE GESER BEST | 59 - Lille | [offer](https://candidat.francetravail.fr/offres/recherche/detail/214SKMP) |
+| 2 | 6 | Tech Lead PHP - Symfony (H/F) | SOCIETE GESER BEST | 59 - Lille | [offer](https://candidat.francetravail.fr/offres/recherche/detail/214SKCP) |
 
 ## Why each fits
 
-1. **Full Stack JavaScript Developer (React & Node.js) — IT International Mobility** (Brussels): Recoupe le profil sur : javascript, react, node.js, full stack, fullstack.
-2. **Analyste développeur Full-stack (H/F) — Non précisé** (59 - Lille): Recoupe le profil sur : react, full-stack.
+1. **Développeur Powerbuilder (H/F) — SOCIETE GESER BEST** (59 - Lille): Profil compatible.
+2. **Tech Lead PHP - Symfony (H/F) — SOCIETE GESER BEST** (59 - Lille): Profil compatible.
 
 ## Tailored cover letters (top 4)
 
-### 1. IT International Mobility — Full Stack JavaScript Developer (React & Node.js)
-Link: https://www.hubmub.com/jobs/342017/full-stack-javascript-developer-react-nodejs
+### 1. SOCIETE GESER BEST — Développeur Powerbuilder (H/F)
+Link: https://candidat.francetravail.fr/offres/recherche/detail/214SKMP
 
 ```
 Madame, Monsieur,
 
-Développeur Full-stack chez Archimed à Lille, je vous propose ma candidature pour le poste de Full Stack JavaScript Developer (React & Node.js) au sein de IT International Mobility.
+Développeur Full-stack chez Archimed à Lille, je vous propose ma candidature pour le poste de Développeur Powerbuilder (H/F) au sein de SOCIETE GESER BEST.
 
-Au quotidien, j'interviens sur l'ensemble du cycle projet : analyse des besoins, rédaction de spécifications fonctionnelles et techniques, développement front-end (React, TypeScript, Tailwind) et back-end (Node.js, Express, SQL et noSQL), intégration de solutions, correction d'anomalies et livraison client. Les compétences attendues dans votre offre (javascript, react, node.js, full stack, fullstack) recoupent largement ma pratique actuelle.
+Au quotidien, j'interviens sur l'ensemble du cycle projet : analyse des besoins, rédaction de spécifications fonctionnelles et techniques, développement front-end (React, TypeScript, Tailwind) et back-end (Node.js, Express, SQL et noSQL), intégration de solutions, correction d'anomalies et livraison client. Les compétences attendues dans votre offre (React, Node.js, TypeScript) recoupent largement ma pratique actuelle.
 
 Rigoureux, orienté solution et habitué au travail d'équipe — qualités affinées par plusieurs années d'enseignement et par la gestion de la relation client — je suis convaincu de pouvoir contribuer rapidement à vos projets, tout en poursuivant ma montée en compétences (actuellement C#/.NET).
 
@@ -36,15 +36,15 @@ Arthur Dorchies
 +33 6 46 87 16 76 — arthurdorchies@gmail.com
 ```
 
-### 2. Non précisé — Analyste développeur Full-stack (H/F)
-Link: https://candidat.francetravail.fr/offres/recherche/detail/7657775
+### 2. SOCIETE GESER BEST — Tech Lead PHP - Symfony (H/F)
+Link: https://candidat.francetravail.fr/offres/recherche/detail/214SKCP
 
 ```
 Madame, Monsieur,
 
-Développeur Full-stack chez Archimed à Lille, je vous propose ma candidature pour le poste de Analyste développeur Full-stack (H/F) au sein de Non précisé.
+Développeur Full-stack chez Archimed à Lille, je vous propose ma candidature pour le poste de Tech Lead PHP - Symfony (H/F) au sein de SOCIETE GESER BEST.
 
-Au quotidien, j'interviens sur l'ensemble du cycle projet : analyse des besoins, rédaction de spécifications fonctionnelles et techniques, développement front-end (React, TypeScript, Tailwind) et back-end (Node.js, Express, SQL et noSQL), intégration de solutions, correction d'anomalies et livraison client. Les compétences attendues dans votre offre (react, full-stack) recoupent largement ma pratique actuelle.
+Au quotidien, j'interviens sur l'ensemble du cycle projet : analyse des besoins, rédaction de spécifications fonctionnelles et techniques, développement front-end (React, TypeScript, Tailwind) et back-end (Node.js, Express, SQL et noSQL), intégration de solutions, correction d'anomalies et livraison client. Les compétences attendues dans votre offre (React, Node.js, TypeScript) recoupent largement ma pratique actuelle.
 
 Rigoureux, orienté solution et habitué au travail d'équipe — qualités affinées par plusieurs années d'enseignement et par la gestion de la relation client — je suis convaincu de pouvoir contribuer rapidement à vos projets, tout en poursuivant ma montée en compétences (actuellement C#/.NET).
 
