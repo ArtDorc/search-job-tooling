@@ -1,5 +1,16 @@
 [
   {
+    "id": "https://www.hubmub.com/jobs/342017/full-stack-javascript-developer-react-nodejs",
+    "source": "websearch",
+    "title": "Full Stack JavaScript Developer (React & Node.js)",
+    "company": "IT International Mobility",
+    "location": "Brussels",
+    "contract": "CDI",
+    "url": "https://www.hubmub.com/jobs/342017/full-stack-javascript-developer-react-nodejs",
+    "date": "2026-10-05",
+    "description": "Hybrid fullstack JS React/Node.js, 3-4 years experience."
+  },
+  {
     "id": "https://freehire.me/jobs/developpeur-full-stack-node-js-vue-js-h-f-groupe-lr-technologies-tzytaifw",
     "source": "websearch",
     "title": "Développeur Full Stack Node.js / Vue.js H/F",
@@ -185,93 +196,5 @@
     "url": "https://mobiskill.fr/job/developpeur-full-stack-react-node-h-f-lille-cdi-8368-37/",
     "date": "2026-09-07",
     "description": "Opérateur e-commerce reconditionné (smartphones), stack React/Node, outils de trading/prévision connectés à Backmarket/Agora, CDI à Lille."
-  },
-  {
-    "id": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-se-fullstack-js-node-react-@exalt-lille-at-exalt-3928855909",
-    "source": "websearch",
-    "title": "Développeur/se Fullstack JS - Node / React",
-    "company": "eXalt",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-se-fullstack-js-node-react-@exalt-lille-at-exalt-3928855909",
-    "date": "2026-08-31",
-    "description": "Poste fullstack JavaScript chez eXalt à Lille, stack Node.js et React."
-  },
-  {
-    "id": "https://www.free-work.com/fr/tech-it/developpeur-fullstack/job-mission/developpeur-fullstack-345",
-    "source": "websearch",
-    "title": "Développeur Fullstack",
-    "company": "CAT-AMANIA",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://www.free-work.com/fr/tech-it/developpeur-fullstack/job-mission/developpeur-fullstack-345",
-    "date": "2026-08-31",
-    "description": "Fullstack NodeJS/ReactJS ou Java/Angular, 5-10 ans d'XP, télétravail partiel à Lille."
-  },
-  {
-    "id": "https://fr.linkedin.com/jobs/view/software-engineer-node-shopping-app-platform-team-f-m-d-at-decathlon-digital-3713869516",
-    "source": "websearch",
-    "title": "Software Engineer Node - Shopping App Platform team (f/m/d)",
-    "company": "Decathlon Digital",
-    "location": "Villeneuve-d'Ascq (59)",
-    "contract": "CDI",
-    "url": "https://fr.linkedin.com/jobs/view/software-engineer-node-shopping-app-platform-team-f-m-d-at-decathlon-digital-3713869516",
-    "date": "2026-08-31",
-    "description": "Ingénieur logiciel Node.js sur la plateforme shopping app de Decathlon Digital."
-  },
-  {
-    "id": "https://www.welcometothejungle.com/fr/companies/inetum/jobs/developpeur-reactjs-h-f_lille",
-    "source": "websearch",
-    "title": "Développeur ReactJS H/F",
-    "company": "Inetum",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://www.welcometothejungle.com/fr/companies/inetum/jobs/developpeur-reactjs-h-f_lille",
-    "date": "2026-08-31",
-    "description": "Développeur front ReactJS chez Inetum, ESN, missions clients à Lille."
-  },
-  {
-    "id": "https://adn-consulting.fr/jobs/developpeur-fullstack-h-f-lille/",
-    "source": "websearch",
-    "title": "Développeur Fullstack H/F",
-    "company": "ADN Consulting",
-    "location": "Lille",
-    "contract": "CDI",
-    "url": "https://adn-consulting.fr/jobs/developpeur-fullstack-h-f-lille/",
-    "date": "2026-08-31",
-    "description": "Fullstack Java/Spring et Node.js, Docker/Kubernetes, cloud, minimum 4 ans d'expérience."
-  },
-  {
-    "id": "https://www.collective.work/jobs/fr/developpeur-fullstack-hf-qxmz",
-    "source": "websearch",
-    "title": "Développeur Fullstack H/F",
-    "company": "Collective.work",
-    "location": "Lille",
-    "contract": "CDI",
-    "url": "https://www.collective.work/jobs/fr/developpeur-fullstack-hf-qxmz",
-    "date": "2026-08-31",
-    "description": "Poste fullstack en CDI à Lille, hybride."
-  },
-  {
-    "id": "https://www.actiris.brussels/fr/citoyens/detail-offre-d-emploi/?reference=5829906",
-    "source": "websearch",
-    "title": "Fullstack Node.js Developer M/V/X",
-    "company": "Non précisé",
-    "location": "Bruxelles",
-    "contract": "CDI",
-    "url": "https://www.actiris.brussels/fr/citoyens/detail-offre-d-emploi/?reference=5829906",
-    "date": "2026-08-31",
-    "description": "Node.js, TypeScript, ExpressJS côté back et React côté front, environnement multiculturel anglophone."
-  },
-  {
-    "id": "https://www.actiris.brussels/fr/citoyens/detail-offre-d-emploi/?reference=5869183",
-    "source": "websearch",
-    "title": "React Developer (Fullstack) M/V/X",
-    "company": "Non précisé",
-    "location": "Bruxelles",
-    "contract": "CDI",
-    "url": "https://www.actiris.brussels/fr/citoyens/detail-offre-d-emploi/?reference=5869183",
-    "date": "2026-08-31",
-    "description": "Front React/TypeScript avec intégration back .NET, applications web complexes."
   }
 ]
