@@ -1,5 +1,49 @@
 [
   {
+    "id": "https://www.wizbii.com/company/kgressources/job/developpeur-full-stack-react-6",
+    "source": "websearch",
+    "title": "Développeur Full Stack React",
+    "company": "KGRESSOURCES (éditeur de logiciels)",
+    "location": "Lille",
+    "contract": "CDI",
+    "url": "https://www.wizbii.com/company/kgressources/job/developpeur-full-stack-react-6",
+    "date": "2026-10-12",
+    "description": "Conception et développement d'applications web React, code testable, revues de code."
+  },
+  {
+    "id": "https://www.wizbii.com/company/gfi-informatique/job/developpement-node-js-h-f-1",
+    "source": "websearch",
+    "title": "Développeur Node.js / TypeScript (H/F)",
+    "company": "Gfi Informatique",
+    "location": "Lille",
+    "contract": "CDI",
+    "url": "https://www.wizbii.com/company/gfi-informatique/job/developpement-node-js-h-f-1",
+    "date": "2026-10-12",
+    "description": "Microservices Node.js/TypeScript cloud en mode agile."
+  },
+  {
+    "id": "https://www.wizbii.com/company/alten/job/developpeur-full-stack-f-h-101",
+    "source": "websearch",
+    "title": "Développeur Full Stack (F/H)",
+    "company": "Alten",
+    "location": "Lille",
+    "contract": "CDI",
+    "url": "https://www.wizbii.com/company/alten/job/developpeur-full-stack-f-h-101",
+    "date": "2026-10-12",
+    "description": "Développement et déploiement d'applications du front à la base de données."
+  },
+  {
+    "id": "https://jobs.pauwelsconsulting.com/job/fd7bf2e4-d422-11f0-8c33-b3a0448c774d/senior-full-stack-developer-typescript-nodejs-react-vue",
+    "source": "websearch",
+    "title": "Senior Full-Stack Developer (TypeScript / Node.js / React / Vue)",
+    "company": "Pauwels Consulting",
+    "location": "Brussels",
+    "contract": "",
+    "url": "https://jobs.pauwelsconsulting.com/job/fd7bf2e4-d422-11f0-8c33-b3a0448c774d/senior-full-stack-developer-typescript-nodejs-react-vue",
+    "date": "2026-10-12",
+    "description": "Node.js REST backend and React/Vue frontend in Brussels."
+  },
+  {
     "id": "https://www.hubmub.com/jobs/342017/full-stack-javascript-developer-react-nodejs",
     "source": "websearch",
     "title": "Full Stack JavaScript Developer (React & Node.js)",
@@ -141,60 +185,5 @@
     "url": "https://www.hellowork.com/fr-fr/emplois/82913035.html",
     "date": "2026-09-14",
     "description": "Cabinet Skiils, poste senior fullstack TypeScript/React à Lille."
-  },
-  {
-    "id": "https://www.hellowork.com/fr-fr/emplois/82552314.html",
-    "source": "websearch",
-    "title": "Développeur Fullstack Node.Js React ou Vue.Js",
-    "company": "Vaduo Consulting",
-    "location": "Villeneuve-d'Ascq (59)",
-    "contract": "CDI",
-    "url": "https://www.hellowork.com/fr-fr/emplois/82552314.html",
-    "date": "2026-09-07",
-    "description": "Cabinet de conseil IT, poste fullstack Node.js/React ou Vue.js, 40-55K€, CDI à Villeneuve-d'Ascq."
-  },
-  {
-    "id": "https://be.jooble.org/rjdp/6581282328249419338",
-    "source": "websearch",
-    "title": "Full Stack Developer (Node.js)",
-    "company": "Fyld",
-    "location": "Bruxelles, Belgique",
-    "contract": "CDI",
-    "url": "https://be.jooble.org/rjdp/6581282328249419338",
-    "date": "2026-09-07",
-    "description": "Node.js/React/Webpack/Jest, environnement WCM headless, 5 ans d'XP mini, CDI à Bruxelles."
-  },
-  {
-    "id": "https://welovedevs.com/app/job/developpeur-javascript-fullstack-react-node-sublissime",
-    "source": "websearch",
-    "title": "Développeur Javascript fullstack (React + Node)",
-    "company": "Sublissime",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://welovedevs.com/app/job/developpeur-javascript-fullstack-react-node-sublissime",
-    "date": "2026-09-07",
-    "description": "Startup e-commerce (photos produit IA), back NodeJS/Firebase/GCP, front React Native, sessions Lille + remote, CDI."
-  },
-  {
-    "id": "https://welovedevs.com/app/job/developpeur-fullstack-expert-node-react-mongodb-en-cdi-k-en-full-remote-le-cab-by-welovedevs-1",
-    "source": "websearch",
-    "title": "Développeur Fullstack expert Node React MongoDB",
-    "company": "Le Cab (via WeLoveDevs)",
-    "location": "Full remote (France)",
-    "contract": "CDI",
-    "url": "https://welovedevs.com/app/job/developpeur-fullstack-expert-node-react-mongodb-en-cdi-k-en-full-remote-le-cab-by-welovedevs-1",
-    "date": "2026-09-07",
-    "description": "Poste fullstack expert Node.js/React/MongoDB, 45-55K€, full remote, compatible avec une base à Roubaix."
-  },
-  {
-    "id": "https://mobiskill.fr/job/developpeur-full-stack-react-node-h-f-lille-cdi-8368-37/",
-    "source": "websearch",
-    "title": "Développeur Full Stack React / Node (H/F)",
-    "company": "Non précisé",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://mobiskill.fr/job/developpeur-full-stack-react-node-h-f-lille-cdi-8368-37/",
-    "date": "2026-09-07",
-    "description": "Opérateur e-commerce reconditionné (smartphones), stack React/Node, outils de trading/prévision connectés à Backmarket/Agora, CDI à Lille."
   }
 ]
