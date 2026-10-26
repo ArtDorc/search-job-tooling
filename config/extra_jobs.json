@@ -1,5 +1,16 @@
 [
   {
+    "id": "https://www.engagement-jeunes.com/fr/detail-offre/37790431/cdi-swiss-life-concepteur-developpeur-digital-angular-nodejs-aws-f-h.html",
+    "source": "websearch",
+    "title": "Concepteur Développeur Digital (Angular, NodeJS, AWS)",
+    "company": "Swiss Life",
+    "location": "Roubaix",
+    "contract": "CDI",
+    "url": "https://www.engagement-jeunes.com/fr/detail-offre/37790431/cdi-swiss-life-concepteur-developpeur-digital-angular-nodejs-aws-f-h.html",
+    "date": "2026-10-26",
+    "description": "CDI Direction des Études, Node.js/Angular/AWS, Agile Scrum, CI/CD Jenkins, télétravail fréquent."
+  },
+  {
     "id": "https://www.welcometothejungle.com/fr/companies/sii/jobs/developpeur-se-fullstack-javascript-node-js-react-js-lille_lille",
     "source": "websearch",
     "title": "Développeur(se) Fullstack Javascript - Node.js / React.js",
@@ -75,27 +86,5 @@
     "url": "https://freehire.me/jobs/developpeur-full-stack-node-js-vue-js-h-f-groupe-lr-technologies-tzytaifw",
     "date": "2026-09-28",
     "description": "Groupe LR Technologies, poste fullstack Node.js/Vue.js, CDI à Lille."
-  },
-  {
-    "id": "https://www.hellowork.com/fr-fr/emplois/61861639.html",
-    "source": "websearch",
-    "title": "Développeur Fullstack Node.Js Vue ou React",
-    "company": "Niji",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://www.hellowork.com/fr-fr/emplois/61861639.html",
-    "date": "2026-09-21",
-    "description": "ESN Niji, poste fullstack Node.js avec Vue.js ou React, CDI à Lille."
-  },
-  {
-    "id": "https://mobiskill.fr/job/developpeur-se-fullstack-react-node-7825-71/",
-    "source": "websearch",
-    "title": "Développeur·se fullstack React/Node",
-    "company": "Non précisé",
-    "location": "Lille (59)",
-    "contract": "CDI",
-    "url": "https://mobiskill.fr/job/developpeur-se-fullstack-react-node-7825-71/",
-    "date": "2026-09-21",
-    "description": "Poste fullstack React/Node.js à Lille, CDI."
   }
 ]
