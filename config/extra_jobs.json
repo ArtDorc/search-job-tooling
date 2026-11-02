@@ -1,5 +1,16 @@
 [
   {
+    "id": "https://emploi.ville-lattes.fr/offre/i_945258f0547212b07560bc63bd81a119",
+    "source": "websearch",
+    "title": "Développeur Fullstack (Node.js / React / Vue.js)",
+    "company": "Astek",
+    "location": "Lille",
+    "contract": "CDI",
+    "url": "https://emploi.ville-lattes.fr/offre/i_945258f0547212b07560bc63bd81a119",
+    "date": "2026-11-02",
+    "description": "Développeur fullstack Node.js/React/Vue.js en CDI chez Astek à Lille."
+  },
+  {
     "id": "https://www.engagement-jeunes.com/fr/detail-offre/37790431/cdi-swiss-life-concepteur-developpeur-digital-angular-nodejs-aws-f-h.html",
     "source": "websearch",
     "title": "Concepteur Développeur Digital (Angular, NodeJS, AWS)",
@@ -75,16 +86,5 @@
     "url": "https://www.hubmub.com/jobs/342017/full-stack-javascript-developer-react-nodejs",
     "date": "2026-10-05",
     "description": "Hybrid fullstack JS React/Node.js, 3-4 years experience."
-  },
-  {
-    "id": "https://freehire.me/jobs/developpeur-full-stack-node-js-vue-js-h-f-groupe-lr-technologies-tzytaifw",
-    "source": "websearch",
-    "title": "Développeur Full Stack Node.js / Vue.js H/F",
-    "company": "Groupe LR Technologies",
-    "location": "Lille",
-    "contract": "CDI",
-    "url": "https://freehire.me/jobs/developpeur-full-stack-node-js-vue-js-h-f-groupe-lr-technologies-tzytaifw",
-    "date": "2026-09-28",
-    "description": "Groupe LR Technologies, poste fullstack Node.js/Vue.js, CDI à Lille."
   }
 ]
