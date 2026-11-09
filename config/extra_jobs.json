@@ -1,5 +1,49 @@
 [
   {
+    "id": "https://candidat.francetravail.fr/offres/recherche/detail/6262934",
+    "source": "websearch",
+    "title": "Développeur Full Stack H/F",
+    "company": "Non précisé",
+    "location": "Roubaix",
+    "contract": "CDI",
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/6262934",
+    "date": "2026-11-09",
+    "description": "Poste de développeur full stack à Roubaix."
+  },
+  {
+    "id": "https://candidat.francetravail.fr/offres/recherche/detail/6270993",
+    "source": "websearch",
+    "title": "Senior Cloud & DevOps Engineer H/F",
+    "company": "Non précisé",
+    "location": "Lille",
+    "contract": "",
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/6270993",
+    "date": "2026-11-09",
+    "description": "Senior cloud & DevOps engineer à Lille."
+  },
+  {
+    "id": "https://candidat.francetravail.fr/offres/recherche/detail/6270949",
+    "source": "websearch",
+    "title": "Senior AWS Cloud & DevOps Engineer H/F",
+    "company": "Non précisé",
+    "location": "Lille",
+    "contract": "",
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/6270949",
+    "date": "2026-11-09",
+    "description": "Senior AWS cloud & DevOps engineer à Lille."
+  },
+  {
+    "id": "https://www.oliverjames.com/job/node-dot-js-and-react-dot-js-developer-brussels-latest-technologies",
+    "source": "websearch",
+    "title": "Node.js and React.js Developer",
+    "company": "Oliver James",
+    "location": "Brussels",
+    "contract": "",
+    "url": "https://www.oliverjames.com/job/node-dot-js-and-react-dot-js-developer-brussels-latest-technologies",
+    "date": "2026-11-09",
+    "description": "Hybrid full-time Node.js/React/TypeScript role in Brussels."
+  },
+  {
     "id": "https://emploi.ville-lattes.fr/offre/i_945258f0547212b07560bc63bd81a119",
     "source": "websearch",
     "title": "Développeur Fullstack (Node.js / React / Vue.js)",
@@ -75,16 +119,5 @@
     "url": "https://jobs.pauwelsconsulting.com/job/fd7bf2e4-d422-11f0-8c33-b3a0448c774d/senior-full-stack-developer-typescript-nodejs-react-vue",
     "date": "2026-10-12",
     "description": "Node.js REST backend and React/Vue frontend in Brussels."
-  },
-  {
-    "id": "https://www.hubmub.com/jobs/342017/full-stack-javascript-developer-react-nodejs",
-    "source": "websearch",
-    "title": "Full Stack JavaScript Developer (React & Node.js)",
-    "company": "IT International Mobility",
-    "location": "Brussels",
-    "contract": "CDI",
-    "url": "https://www.hubmub.com/jobs/342017/full-stack-javascript-developer-react-nodejs",
-    "date": "2026-10-05",
-    "description": "Hybrid fullstack JS React/Node.js, 3-4 years experience."
   }
 ]
