@@ -1,5 +1,82 @@
 [
   {
+    "id": "https://jobs.lever.co/sfeir/3dedba78-474e-40f9-b427-8c769c0678a0",
+    "source": "websearch",
+    "title": "Développeur(euse) JavaScript expérimenté(e)",
+    "company": "SFEIR",
+    "location": "Lille",
+    "contract": "CDI",
+    "url": "https://jobs.lever.co/sfeir/3dedba78-474e-40f9-b427-8c769c0678a0",
+    "date": "2026-11-23",
+    "description": "Mid-to-senior JavaScript developer at SFEIR Lille, hybrid, permanent."
+  },
+  {
+    "id": "https://www.vdab.be/vindeenjob/vacatures/74663248/node-react-developer",
+    "source": "websearch",
+    "title": "Node React Developer",
+    "company": "Oliver James Associates",
+    "location": "Brussels",
+    "contract": "",
+    "url": "https://www.vdab.be/vindeenjob/vacatures/74663248/node-react-developer",
+    "date": "2026-11-23",
+    "description": "Senior Node.js/TypeScript/React role modernising a legacy stack, AWS or other cloud."
+  },
+  {
+    "id": "https://www.wearedevelopers.com/jobs/ext/7321959/full-stack-developer",
+    "source": "websearch",
+    "title": "Full Stack Developer",
+    "company": "Elia Group",
+    "location": "Brussels",
+    "contract": "",
+    "url": "https://www.wearedevelopers.com/jobs/ext/7321959/full-stack-developer",
+    "date": "2026-11-23",
+    "description": "Full-stack TypeScript/React/Next.js role supporting an internal platform migration to SitecoreAI."
+  },
+  {
+    "id": "https://paynovate.breezy.hr/p/6170d4d9f61401-fullstack-engineer",
+    "source": "websearch",
+    "title": "Full Stack Developer (Node.js, TypeScript, React)",
+    "company": "Paynovate",
+    "location": "Brussels",
+    "contract": "",
+    "url": "https://paynovate.breezy.hr/p/6170d4d9f61401-fullstack-engineer",
+    "date": "2026-11-23",
+    "description": "Brussels payments fintech seeking a full-stack dev strong in Node.js, TypeScript and React."
+  },
+  {
+    "id": "https://www.wearedevelopers.com/en/jobs/ext/6494871/fullstack-developer-brussels",
+    "source": "websearch",
+    "title": "Fullstack Developer (Brussels)",
+    "company": "Non précisé",
+    "location": "Brussels",
+    "contract": "CDI",
+    "url": "https://www.wearedevelopers.com/en/jobs/ext/6494871/fullstack-developer-brussels",
+    "date": "2026-11-23",
+    "description": "Permanent full-stack role in Brussels with React and Node.js; FR/NL/EN languages valued."
+  },
+  {
+    "id": "https://expleo-jobs-be-en.icims.com/jobs/54318/senior-full-stack-developer-%7c-react-%e2%80%a2-node.js-%e2%80%a2-python/job",
+    "source": "websearch",
+    "title": "Senior Full Stack Developer | React • Node.js • Python",
+    "company": "Expleo",
+    "location": "Brussels",
+    "contract": "CDI",
+    "url": "https://expleo-jobs-be-en.icims.com/jobs/54318/senior-full-stack-developer-%7c-react-%e2%80%a2-node.js-%e2%80%a2-python/job",
+    "date": "2026-11-23",
+    "description": "Permanent senior full-stack role in Brussels on React, Node.js and Python."
+  },
+  {
+    "id": "https://www.vdab.be/vindeenjob/vacatures/74964495/fullstack-engineer-scale-up-tech",
+    "source": "websearch",
+    "title": "Fullstack Engineer – Scale-up Tech",
+    "company": "Non précisé",
+    "location": "Brussels",
+    "contract": "",
+    "url": "https://www.vdab.be/vindeenjob/vacatures/74964495/fullstack-engineer-scale-up-tech",
+    "date": "2026-11-23",
+    "description": "Full-stack engineer at a Belgian tech scale-up, TypeScript/React/Node ecosystem."
+  },
+  {
     "id": "https://www.pauwelsconsulting.com/job/f0e9e66b-4cb5-4a85-b36f-b384ef026c2a/full-stack-developer-react-nodejs",
     "source": "websearch",
     "title": "Full Stack Developer (React & Node.js)",
@@ -141,16 +218,5 @@
     "url": "https://www.engagement-jeunes.com/fr/detail-offre/37790431/cdi-swiss-life-concepteur-developpeur-digital-angular-nodejs-aws-f-h.html",
     "date": "2026-10-26",
     "description": "CDI Direction des Études, Node.js/Angular/AWS, Agile Scrum, CI/CD Jenkins, télétravail fréquent."
-  },
-  {
-    "id": "https://www.welcometothejungle.com/fr/companies/sii/jobs/developpeur-se-fullstack-javascript-node-js-react-js-lille_lille",
-    "source": "websearch",
-    "title": "Développeur(se) Fullstack Javascript - Node.js / React.js",
-    "company": "Groupe SII",
-    "location": "Lille",
-    "contract": "CDI",
-    "url": "https://www.welcometothejungle.com/fr/companies/sii/jobs/developpeur-se-fullstack-javascript-node-js-react-js-lille_lille",
-    "date": "2026-10-19",
-    "description": "Développement fullstack Node.js/React sur site à Lille, 40-45k€."
   }
 ]
